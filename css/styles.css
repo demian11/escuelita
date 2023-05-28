@@ -66,6 +66,14 @@ h3 {
 	line-height: 2.25rem;
 	font-family: "Poppins"
 }
+/* nuevo estilo agregado para el texto del index*/
+h3 {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 1.75rem;
+	line-height: 2.25rem;
+	font-family: "Poppins"
+}
 
 h4 {
 	color: #161223;
@@ -547,7 +555,7 @@ a:hover {
 /*******************/
 .split .area-1 {
 	height: 430px;
-	background: url('../images/details-background.jpg') center center no-repeat;
+	background: url('../images/presentacion.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -728,9 +736,10 @@ a:hover {
 	background-size: 18px 28px;
 }
 
+/* itamaño de las imagenes de los integrantes */
 .slider-1 .testimonial-image {
-	width: 120px;
-	height: 120px;
+	width: 200px;
+	height: 200px;
 	margin-bottom: 2.25rem;
 	border-radius: 50%;
 }
@@ -762,7 +771,7 @@ a:hover {
 .form-1 {
 	padding-top: 9.25rem;
 	padding-bottom: 8.5rem;
-	background: linear-gradient(rgba(2, 15, 29, 0.1), rgba(2, 15, 29, 0.1)), url('../images/contact-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(2, 15, 29, 0.1), rgba(2, 15, 29, 0.1)), url('../images/contacto.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
