@@ -68,7 +68,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Cursos</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                                <li><a class="dropdown-item" href="article.html">Html</a></li>
+                                <li><a class="dropdown-item" href="html1.php">Html</a></li>
                                 <li><div class="dropdown-divider"></div></li>
                                 <li><a class="dropdown-item" href="terms.html">CSS</a></li>
                                 <li><div class="dropdown-divider"></div></li>
@@ -222,7 +222,7 @@
                     <div class="col-lg-5">
                         <div class="text-container">
                             <h2>HTML</h2>
-                            <p>Descrubre como crear tu primer pagina web iniciado desde un hola mundo, hasta aprender como agregar imagenes, videos y enlaces</p>
+                            <p>Descrubre como crear tu primer pagina web iniciado desde un hola mundo, hasta aprender como agregar imagenes, videos y mas!</p>
                             <a class="read-more no-line green" href="html1.html">Aprende HTML <span class="fas fa-long-arrow-alt-right"></span></a>
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
@@ -265,8 +265,8 @@
                     </div> <!-- end of col -->
                     <div class="col-lg-5">
                         <div class="text-container">
-                            <h2>Accumsan lacus vel facilisis volutpat est</h2>
-                            <p>Commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Morbi tristique senectus et netus et malesuada fames. Felis bibendum ut tristique et. Fermentum odio eu feugiat</p>
+                            <h2>JAVASCRIPT</h2>
+                            <p>Si te gusta la programacion y darle vida a tu paginas, este es tu lugar donde podras aprender hacer todo eso y mas</p>
                             <a class="read-more no-line green" href="article.html">Aprende JAVASCRIPT <span class="fas fa-long-arrow-alt-right"></span></a>
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
