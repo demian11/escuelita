@@ -18,7 +18,25 @@
         <link href="./css/style.css" rel="stylesheet" />
         
     </head>
+
     <body id="page-top">
+    <!--Barra de navegacion superior-->
+    <!--el fixed top mantedra fija la barra superir que esta en la liena debajo de este comentario-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top justify-content-center">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Inicio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">css</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">javascript</a>
+    </li>
+  </ul>
+</nav>
+<!--fi de Barra de navegacion superior-->
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -51,18 +69,19 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    
                 </ul>
             </div>
         </nav>
+
         <!-- Page Content-->
         <div class="container-fluid p-0">
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        Clarence
-                        <span class="text-primary">Taylor</span>
+                        Bienvenido a los cursos de
+                        <span class="text-primary">HTML!</span>
                     </h1>
                     <div class="subheading mb-5">
                         3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
