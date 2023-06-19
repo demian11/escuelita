@@ -25,10 +25,10 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top justify-content-center">
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Inicio</a>
+      <a class="nav-link" href="index.php">Inicio</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">css</a>
+    <li class=" nav-item ">
+      <a class="nav-link " href="#">css</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">javascript</a>
@@ -46,8 +46,8 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Presentacion</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Elementos html</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
@@ -84,44 +84,80 @@
                         <span class="text-primary">HTML!</span>
                     </h1>
                     <div class="subheading mb-5">
+                        <!-- 
                         3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
                         <a href="mailto:name@email.com">name@email.com</a>
+                        -->
                     </div>
-                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    
+                    <p class="lead mb-5">En este curso, te introducirás en el fascinante mundo del desarrollo web y aprenderás los fundamentos del lenguaje HTML (HyperText Markup Language). HTML es el lenguaje de marcado estándar para crear páginas web y 
+                        es fundamental para cualquier aspirante a desarrollador web.
+                        Durante el curso, exploraremos los conceptos básicos de HTML, desde la estructura básica de una página web hasta la creación de elementos como encabezados, párrafos, listas, enlaces e imágenes. Aprenderás cómo utilizar etiquetas HTML para organizar 
+                        y formatear el contenido de tus páginas, permitiéndote darle estilo y estructura a tus creaciones.</p>
                     <div class="social-icons">
+                    <!--
                         <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
                         <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    -->                  
                     </div>
+
                 </div>
             </section>
             <hr class="m-0" />
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
+                    <h2>¡Espera!</h2>
+                    <div class="subheading mb-3">Antes de que empieces con este curso te recomendamos primero que tengas listo un editor de codigo 
+                        y para eso te daremos uno para que pudas dar tus primeros pasos dentro de la programacion, asi que picale al siguiente boton y empieza a programar!</div>
+                    <div class="social-icons">
+                    <a class="social-icon" href="https://codepen.io/pen/"><i class="fa-solid fa-code"></i></a>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <h2 class="mb-5">Empecemos con el tutorial</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <h3 class="mb-0"><!-- aqui puede ir texto--></h3>
+                            <div class="subheading mb-3">Como podras observar en la siguiente imagen, aprenderas a crear tu prmer estructura de un html y te enlistaremos para que
+                                funciona cada cosa de la pagina
+                            </div>
+                            <img src="./images/cuerpo.png" width="900" height="400" >
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                        
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                            <h3 class="mb-0"></h3>
+                            <h3 class="mb-0">Estructura de cada linea de codigo</h3>
+                            <div class="subheading mb-3"><!-- aqui puede ir texto--></div>
+                            <li><b>!DOCTYPE html:</b> Esto indica que el documento es un archivo HTML.</li>
+                            <br>
+                            <li><b>html lang="en":</b> El elemento html es la raíz de todo el documento HTML. El atributo lang establece el idioma del documento (en este caso, inglés).</li>
+                            <br>
+                            <li><b>head:</b> El elemento head contiene información sobre la página, como el título, enlaces a archivos CSS o JavaScript, metadatos y más.</li>
+                            <br>
+                            <li><b>meta charset="UTF-8":</b> Este metaetiqueta especifica la codificación de caracteres utilizada en el documento (UTF-8, en este caso).</li>
+                            <br>
+                            <li><b>meta http-equiv="X-UA-Compatible" content="IE=edge"</b> Esta metaetiqueta establece la compatibilidad con versiones anteriores de Internet Explorer.</li>
+                            <br>
+                            <li><b>meta name="viewport" content="width=device-width, initial-scale=1.0"</b>Esta metaetiqueta define la configuración de la ventana gráfica que se utiliza para mostrar el contenido en dispositivos móviles y otros dispositivos.</li>
+                            <br>
+                            <li><b>title Document /title:</b>El elemento title establece el título de la página que se mostrará en la barra de título del navegador.</li>
+                            <br>
+                            <li><b>body:</b>El elemento body contiene el contenido visible de la página, como texto, imágenes, enlaces y otros elementos.</li>
+                        <h2></h2>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                            <h3 class="mb-0"></h3>
+                            <div class="subheading mb-3">Aqui te dejamos un cosejo </div>
+                            <p>Para evitar escribir cada linea de codigo explicada anteriormente te recomendamos escribir en tu editor de codigo "!" y despues presionas tabulador para que instantaneamente escriba todo</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
                     </div>
@@ -139,11 +175,22 @@
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
+                    <h2 class="mb-5">Tamaños de letra</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <h1 class="mb-0"><"h1">Tu contenido<"/h1"></h1>
+                            <br>
+                            <h2 class="mb-0"><"h2">Aqui va el contenido que quieras<"/h2"></h2>
+                            <br>
+                            <h3 class="mb-0"><"h3">Aqui va el contenido que quieras<"/h3"></h3>
+                            <br>
+                            <h4 class="mb-0"><"h4">Aqui va el contenido que quieras<"/h4"></h4>
+                            <br>
+                            <h5 class="mb-0"><"h5">Aqui va el contenido que quieras<"/h5"></h5>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="subheading mb-3">Como puedes ver aqui tienes varios tipos de tamaños de letras para tus paginas </div>
                             <div>Computer Science - Web Development Track</div>
                             <p>GPA: 3.23</p>
                         </div>
