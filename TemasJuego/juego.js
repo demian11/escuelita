@@ -58,7 +58,7 @@ function remove(palabra){
         palabra.innerHTML = "";
         posDisponible[palabra.id] = "";
 
-        document.getElementById(palabra.id).style.background = "#ccc";
+        document.getElementById(palabra.id).style.background = "#ff9100";
 
         //limpiamos el texto resultado
         txtResultado.innerHTML = "";
@@ -74,7 +74,7 @@ comprobar.onclick = function(){
     if(posLibre==-1){
         for(i=0; i <orden_correcto.length;i++){
             if(orden_correcto[i]==posDisponible[i]){
-                document.getElementById(i).style.background = "#c0ff33";
+                document.getElementById(i).style.background = "#3e5a00";
                 totalAciertos++;
             }else{
                 document.getElementById(i).style.background = "#fb4b4b";
