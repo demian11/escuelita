@@ -80,6 +80,7 @@
                             <a class="nav-link" href="./login.php">Iniciar sesion</a>
                         </li>
                     </ul>
+                    <!--
                     <span class="nav-item social-icons">
                         <span class="fa-stack">
                             <a href="./quiz/admin/index.php">
@@ -94,6 +95,7 @@
                             </a>
                         </span>
                     </span>
+                    -->
                 </div> <!-- end of navbar-collapse -->
             </div> <!-- end of container -->
         </nav> <!-- end of navbar -->
