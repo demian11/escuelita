@@ -33,6 +33,9 @@
     <li class="nav-item">
       <a class="nav-link" href="#">javascript</a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Nombre de usuario</a>
+    </li>
   </ul>
 </nav>
 <!--fi de Barra de navegacion superior-->

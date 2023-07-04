@@ -53,6 +53,7 @@ if (isset($_POST['login'])) {
                         <input type="password" name="password">
                     </div>
                 </div>
+                
                 <hr>
                 <input type="submit" name="login" value="Ingresar" class="btn">
             </form>
