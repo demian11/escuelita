@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:500,600" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/nivelhtml.css">
+    <link rel="stylesheet" href="../css/nivelhtml.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -25,7 +25,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./index.php"> Ir a inicio</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.php"> Ir a inicio</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Ir a Javascript</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Ir a CSS</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Pon a prueba tus abilidades!</a></li>
@@ -53,10 +53,10 @@
         <div class="row">
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="./images/nivel1.jpg" alt=""></a>
+                    <a href="#"><img class="card-img-top" src="../images/nivel1.jpg" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="#">Principiante</a>
+                            <a href="./html1.php">Principiante</a>
                         </h4>
                         <p class="card-text">En este nivel empezaras aprender lo basico de html en donde
                             conoceras conceptos basicos como, crear la estructura basica de tu pagina,

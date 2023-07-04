@@ -68,7 +68,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Cursos</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                                <li><a class="dropdown-item" href="nivelHtml.php">Html</a></li>
+                                <li><a class="dropdown-item" href="./contenido/nivelHtml.php">Html</a></li>
                                 <li><div class="dropdown-divider"></div></li>
                                 <li><a class="dropdown-item" href="terms.html">CSS</a></li>
                                 <li><div class="dropdown-divider"></div></li>
