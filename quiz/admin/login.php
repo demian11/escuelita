@@ -20,6 +20,8 @@ if (isset($_POST['login'])) {
         $mensaje = "* El nombre de usuario o la contraseña son incorrectos";
     }
 }
+
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
