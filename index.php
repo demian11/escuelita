@@ -1,18 +1,13 @@
 <?php
 //aqui se estara redireccionando al usuario una vez se haya logeado en la pagina
-/*
-session_start();
 
-if(!isset($_SESSION['nombre'])){
-    header("Location: index.php");
+session_start();
+include "./quiz/admin/conexion.php";
+/*if(!isset($_SESSION['nombre'])){
+    header("Location: ./index.php");
 }
 */
-session_start();
-
-if(!isset($_SESSION['nombre'])){
-    header("Location: index.php");
-}
-
+//$_SESSION['nombre'] = $nombreDeUsuario;
 ?>
 
 <!DOCTYPE html>
@@ -93,12 +88,26 @@ if(!isset($_SESSION['nombre'])){
                         </ul>
                     </li>
 
+                    <!-- si el usuario inicio sesion se muestra su nombre si no vera iniciar sesion -->
+                    <?php
+                        
+                        if (isset($_SESSION['nombre'])) {
+                            $nombreDeUsuario = $_SESSION['nombre'];
+                        ?>
+
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Usuario</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false"><?php echo $_SESSION['nombre'] ?></a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="./login.php">Iniciar sesion</a></li>
+                            <li><a class="dropdown-item" href="./quiz/admin/cerrar-sesion.php">cerrar sesion</a></li>
                         </ul>
                     </li>
+                    <?php }else{ ?>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./login.php">Iniciar sesion</a>
+                    </li>
+                        <?php } ?>
+                        <!-- aqui termina para mostrar el usuario o iniciar sesion -->
+
                 </ul>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->

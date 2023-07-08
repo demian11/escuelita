@@ -1,9 +1,10 @@
 <?php
 include "./quiz/admin/conexion.php";
+session_start();
 error_reporting(0);
 
 if(isset($_SESSION["nombre"])){
-  header("Location: ./index.php");
+  header('Location:./index.php');
 }
 
 if(isset($_POST["submit"])){
@@ -14,12 +15,12 @@ if(isset($_POST["submit"])){
   correo='$email' AND clave='$password'";
   $result = mysqli_query($conn,$sql);
 
-  if($result->num_rows > 0){
+  if($result-> num_rows > 0){
     $row =mysqli_fetch_assoc($result);
     $_SESSION['nombre']=$row['nombre'];
-    header("Location: ./index.php");
+    header('Location:./index.php');
   }else{
-    echo "<script><alert('La contraseña o el correo son incorrectos')script>";
+    echo "<script>alert('La contraseña o el correo son incorrectos')</script>";
   }
 }
 ?>

@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
--- Servidor: localhost
--- Tiempo de generación: 12-07-2022 a las 22:27:47
--- Versión del servidor: 10.4.17-MariaDB
--- Versión de PHP: 8.0.1
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 09-07-2023 a las 01:47:02
+-- Versión del servidor: 10.4.27-MariaDB
+-- Versión de PHP: 8.1.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -32,7 +32,7 @@ CREATE TABLE `config` (
   `usuario` varchar(100) NOT NULL,
   `password` varchar(10) NOT NULL,
   `totalPreguntas` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `config`
@@ -52,14 +52,14 @@ CREATE TABLE `estadisticas` (
   `visitas` int(11) NOT NULL,
   `respondidas` int(11) NOT NULL,
   `completados` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `estadisticas`
 --
 
 INSERT INTO `estadisticas` (`id`, `visitas`, `respondidas`, `completados`) VALUES
-(1, 0, 0, 0);
+(1, 15, 3, 0);
 
 -- --------------------------------------------------------
 
@@ -75,7 +75,7 @@ CREATE TABLE `preguntas` (
   `opcion_b` text NOT NULL,
   `opcion_c` text NOT NULL,
   `correcta` varchar(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `preguntas`
@@ -152,7 +152,7 @@ INSERT INTO `preguntas` (`id`, `tema`, `pregunta`, `opcion_a`, `opcion_b`, `opci
 CREATE TABLE `temas` (
   `id` int(11) NOT NULL,
   `nombre` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `temas`
@@ -166,6 +166,32 @@ INSERT INTO `temas` (`id`, `nombre`) VALUES
 (5, 'Física'),
 (6, 'Ingles'),
 (7, 'Comida');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuarios`
+--
+
+CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(50) NOT NULL,
+  `correo` varchar(50) NOT NULL,
+  `clave` varchar(50) NOT NULL,
+  `estatus` int(11) NOT NULL DEFAULT 1
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `usuarios`
+--
+
+INSERT INTO `usuarios` (`id`, `nombre`, `correo`, `clave`, `estatus`) VALUES
+(2, 'moises', 'moi123@outlook.com', '123456789', 1),
+(4, 'omar', 'omar321@gmail.com', '25f9e794323b453885f5181f1b624d0b', 1),
+(5, 'alberto', 'beto321@outlook.com', '25f9e794323b453885f5181f1b624d0b', 1),
+(6, 'lalo', 'lalo321@gmail.com', '25f9e794323b453885f5181f1b624d0b', 1),
+(7, 'jaime', 'jaime543@gmail.com', '6ebe76c9fb411be97b3b0d48b791a7c9', 1),
+(8, 'damian', 'demian1155@outlook.com', '25f9e794323b453885f5181f1b624d0b', 1);
 
 --
 -- Índices para tablas volcadas
@@ -196,6 +222,13 @@ ALTER TABLE `temas`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indices de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `nombre` (`nombre`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -222,6 +255,12 @@ ALTER TABLE `preguntas`
 --
 ALTER TABLE `temas`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
+-- AUTO_INCREMENT de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
