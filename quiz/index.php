@@ -53,7 +53,7 @@ if(isset($_GET['idCategoria'])){
             </div>
         </div>
         <footer>
-            <a href="https://www.youtube.com/c/CódigoWeb">By Código Web  <i class="fa-brands fa-youtube"></i> </a>
+            <a href="../index.php">Ir al inicio  <i class="fa-solid fa-house"></i> </a>
         </footer>
     </div>
 </body>

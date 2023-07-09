@@ -36,7 +36,7 @@ include ".././quiz/admin/conexion.php";
                 <br>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Ir a CSS</a></li>
                 <br>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Pon a prueba tus abilidades!</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../quiz/index.php">Pon a prueba tus abilidades!</a></li>
                 <br>
                 <br>
                 <br>

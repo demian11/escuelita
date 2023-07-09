@@ -1,18 +1,12 @@
 <?php
-//aqui se estara redireccionando al usuario una vez se haya logeado en la pagina
 
 session_start();
 include "./quiz/admin/conexion.php";
-/*if(!isset($_SESSION['nombre'])){
-    header("Location: ./index.php");
-}
-*/
-//$_SESSION['nombre'] = $nombreDeUsuario;
+
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -194,7 +188,7 @@ include "./quiz/admin/conexion.php";
                     <div class="text-container">
                         <h2>HTML</h2>
                         <p>Descrubre como crear tu primer pagina web iniciado desde un hola mundo, hasta aprender como agregar imagenes, videos y mas!</p>
-                        <a class="read-more no-line green" href="html1.html">Aprende HTML <span class="fas fa-long-arrow-alt-right"></span></a>
+                        <a class="read-more no-line green" href="./contenido/nivelHtml.php">Aprende HTML <span class="fas fa-long-arrow-alt-right"></span></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -215,7 +209,7 @@ include "./quiz/admin/conexion.php";
                     <div class="text-container">
                         <h2>CSS</h2>
                         <p>Adentrate en este este mundo en el que aprenderas como darle color, diseño y vida a tus paginas web a tu gusto!</p>
-                        <a class="read-more no-line green" href="article.html">Aprende CSS <span class="fas fa-long-arrow-alt-right"></span></a>
+                        <a class="read-more no-line green" href="./contenido/nivelCSS.php">Aprende CSS <span class="fas fa-long-arrow-alt-right"></span></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -236,7 +230,7 @@ include "./quiz/admin/conexion.php";
                     <div class="text-container">
                         <h2>JAVASCRIPT</h2>
                         <p>Si te gusta la programacion y darle vida a tu paginas, este es tu lugar donde podras aprender hacer todo eso y mas</p>
-                        <a class="read-more no-line green" href="article.html">Aprende JAVASCRIPT <span class="fas fa-long-arrow-alt-right"></span></a>
+                        <a class="read-more no-line green" href="./contenido/nivelJava.php">Aprende JAVASCRIPT <span class="fas fa-long-arrow-alt-right"></span></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
