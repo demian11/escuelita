@@ -22,7 +22,7 @@ include ".././quiz/admin/conexion.php";
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Clarence Taylor</span>
         </a>
@@ -32,11 +32,11 @@ include ".././quiz/admin/conexion.php";
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.php"> Ir a inicio</a></li>
                 <br>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Ir a Javascript</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./nivelJava.php">Ir a Javascript</a></li>
                 <br>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Ir a CSS</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./nivelHtml.php">Ir a HTML</a></li>
                 <br>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Pon a prueba tus abilidades!</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../quiz/index.php">Pon a prueba tus abilidades!</a></li>
                 <br>
                 <br>
                 <br>

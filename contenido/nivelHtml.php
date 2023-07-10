@@ -32,9 +32,9 @@ include ".././quiz/admin/conexion.php";
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.php"> Ir a inicio</a></li>
                 <br>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Ir a Javascript</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./nivelJava.php">Ir a Javascript</a></li>
                 <br>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Ir a CSS</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./nivelCSS.php">Ir a CSS</a></li>
                 <br>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../quiz/index.php">Pon a prueba tus abilidades!</a></li>
                 <br>
@@ -100,11 +100,11 @@ include ".././quiz/admin/conexion.php";
                         if (isset($_SESSION['nombre'])) {
                             $nombreDeUsuario = $_SESSION['nombre'];
                         ?>
-                            <a href="#" class="btn btn-primary">Ir a los cursos</a>
+                            <a href="./html1.php" class="btn btn-primary">Ir a los cursos</a>
 
                         <?php } else { ?>
 
-                            <a href="#" class="btn btn-primary">Suscribite a los cursos</a>
+                            <a href="../register.php" class="btn btn-primary">Suscribite a los cursos</a>
 
                         <?php } ?>
 
