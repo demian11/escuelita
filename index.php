@@ -127,7 +127,6 @@ include "./quiz/admin/conexion.php";
             <source src="images/fondo.mp4" type="video/mp4" />
         </video>
         <!-- end of video background -->
-
     </header> <!-- end of header -->
     <!-- end of header -->
 
@@ -151,29 +150,27 @@ include "./quiz/admin/conexion.php";
 
     <!-- Details -->
     <div class="split">
-        <div class="area-1">
-        </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space -->
-        <div class="area-2 bg-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-
-                        <!-- Text Container -->
-                        <div class="text-container">
+            <div class="area-1">
+            </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2 bg-gray">
+                <div class="container">    
+                    <div class="row">
+                        <div class="col-lg-12">     
+                            
+                            <!-- Text Container -->
+                            <div class="text-container">
                             <h2>Temas que veras dentro de los cursos</h2>
-                            <p></p>
                             <p><strong>HTML -</strong> aprenderás a crear la estructura de una página web, desde encabezados y párrafos hasta listas y enlaces. Descubrirás cómo organizar y presentar información de manera efectiva para cautivar a tus usuarios.</p>
                             <p><strong>CSS -</strong> te sumergirás en el mundo del diseño web. Aprenderás a aplicar estilos y personalizar la apariencia de tus páginas. Desde colores y fuentes hasta diseños y efectos visuales, te convertirás en un maestro del arte del diseño digital.</p>
                             <p><strong>JAVASCRIPT-</strong>el lenguaje que dará vida a tus páginas web. Descubrirás cómo agregar interactividad y funcionalidad a través de animaciones, validación de formularios, manipulación de elementos y mucho más. ¡Tu sitio web cobrará vida y cautivará a tus usuarios!</p>
-                        </div> <!-- end of text-container -->
-                        <!-- end of text container -->
+                            </div> <!-- end of text-container -->
+                            <!-- end of text container -->
 
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of area-2 -->
-    </div> <!-- end of split -->
-    <!-- end of details -->
+                        </div> <!-- end of col -->
+                    </div> <!-- end of row -->
+                </div> <!-- end of container -->
+            </div> <!-- end of area-2 -->
+        </div> <!-- end of split -->
+        <!-- end of details -->
 
     <!-- Services 1 -->
     <div id="services" class="basic-1">

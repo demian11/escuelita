@@ -90,11 +90,14 @@ include ".././quiz/admin/conexion.php";
                 <div class="card h-100">
                     <a href="#"><img class="card-img-top" src="https://previews.123rf.com/images/sensvector/sensvector2101/sensvector210100068/163303513-personaje-masculino-concentrado-en-el-proyecto-de-trabajo-hombre-aislado-codificando-y-programando.jpg" alt=""></a>
                     <div class="card-body">
+                        <br>
+                        <br>
+                        <br>
                         <h4 class="card-title">
                             <a href="#">Intermedio</a>
                         </h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod
-                            odio, gravida pellentesque urna varius vitae.</p>
+                        <p class="card-text">Desde este momento utilizaras lo anteriormente aprendido junto con temas como, 
+                            diseño responsivo, animaciones y APIs y servicios web</p>
                         <?php
 
                         if (isset($_SESSION['nombre'])) {
