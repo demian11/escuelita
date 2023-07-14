@@ -74,11 +74,11 @@ include "./quiz/admin/conexion.php";
                             <li>
                                 <div class="dropdown-divider"></div>
                             </li>
-                            <li><a class="dropdown-item" href="terms.html">CSS</a></li>
+                            <li><a class="dropdown-item" href="./contenido/css.php">CSS</a></li>
                             <li>
                                 <div class="dropdown-divider"></div>
                             </li>
-                            <li><a class="dropdown-item" href="privacy.html">JAVASCRIPT</a></li>
+                            <li><a class="dropdown-item" href="./contenido/javascript.php">JAVASCRIPT</a></li>
                         </ul>
                     </li>
 
@@ -318,7 +318,15 @@ include "./quiz/admin/conexion.php";
     <!-- end of projects -->
 
 
-    <!-- Testimonials -->
+    <!-- Testimonials 
+    __^__                                      __^__
+         ( ___ )------------------------------------( ___ )
+          | / |                                      | \ |
+          | / |    puto el que no vea esto           | \ |
+          |___|                                      |___|
+         (_____)------------------------------------(_____) 
+         -->
+         
    
     <!-- end of testimonials -->
 
@@ -368,14 +376,15 @@ include "./quiz/admin/conexion.php";
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer-col first">
-                        <h6>Sitr ameto</h6>
-                        <p class="p-small">Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Mauris pharetra et ultrices neque ornare aenean urna et pharetra</p>
+                        <h6>Desarrolladores</h6>
+                        <p class="p-small">Damian Omar Plascencia Magaña</p>
+                        <p class="p-small">Moises Antonio Altamirano Nuño</p>
+                        <p class="p-small">Jose Alberto Medrano Aadredano</p>
                     </div> <!-- end of footer-col -->
                     <div class="footer-col second">
-                        <h6>Links</h6>
+                        <h6>herramientas de desarrollo</h6>
                         <ul class="list-unstyled li-space-lg p-small">
-                            <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
-                            <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a href="#">Illustrations</a></li>
+                            <li>Visual Studio: <a href="https://code.visualstudio.com/">ir a la pagina</a> </li>                                             
                             <li>Menu: <a href="#header">Home</a>, <a href="#services">Services</a>, <a href="#projects">Projects</a>, <a href="#contact">Contact</a></li>
                         </ul>
                     </div> <!-- end of footer-col -->
@@ -404,7 +413,7 @@ include "./quiz/admin/conexion.php";
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
-                        <p class="p-small">Duis ultricies lacus sed turpis <a href="mailto:contact@name.com"><strong>contact@name.com</strong></a></p>
+                        <p class="p-small">Correo de contacto empresarial <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><strong>NeverGonna@gmail.com</strong></a></p>
                     </div> <!-- end of footer-col -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -418,7 +427,7 @@ include "./quiz/admin/conexion.php";
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright © Some name</p>
+                    <p class="p-small">Prog Fun</p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->

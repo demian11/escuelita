@@ -48,13 +48,13 @@ if(isset($_POST["submit"])){
       <label>Contraseña</label>
     </div>
 
-    <a href="#" name="submit" class="btn">
+    <button href="#" name="submit" class="btn">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
       Entrar
-</a>
+    </button>
     
     <a href="./register.php">
       <span></span>
