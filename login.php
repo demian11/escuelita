@@ -33,24 +33,29 @@ if(isset($_POST["submit"])){
     <title>Login</title>
 </head>
 <body>
+
 <div class="login-box">
   <h2>Iniciar sesion</h2>
+
   <form action="" method="POST" class="login-email">
      <div class="user-box">
       <input type="text" name="correo" value="<?php echo $email; ?>" required="">
       <label>Correo</label>
     </div>
+
     <div class="user-box">
       <input type="password" name="password" value="<?php echo $_POST['$password']; ?>" required="">
       <label>Contraseña</label>
     </div>
-    <button href="#" name="submit" class="btn">
+
+    <a href="#" name="submit" class="btn">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
       Entrar
-    </button>
+</a>
+    
     <a href="./register.php">
       <span></span>
       <span></span>

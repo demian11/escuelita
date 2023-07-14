@@ -319,94 +319,8 @@ include "./quiz/admin/conexion.php";
 
 
     <!-- Testimonials -->
-    <div class="slider-1">
-        <img class="text-decoration img-fluid" src="images/testimonials-decoration.png" alt="alternative">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Card Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container card-slider">
-                            <div class="swiper-wrapper">
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <img class="testimonial-image" src="images/damian.jpg" alt="alternative">
-                                    <p class="testimonial-text">“Agregar alguna descripcion”</p>
-                                    <div class="testimonial-author">Damian Plascencia</div>
-                                    <div class="testimonial-position">desarrollador frond-end</div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <img class="testimonial-image" src="images/testimonial-2.jpg" alt="alternative">
-                                    <p class="testimonial-text">“Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Mauris pharetra et ultrices neque ornare aenean. Urna et pharetra pharetra massa. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Vulputate mi sit amet mauris lorem ipsum.”</p>
-                                    <div class="testimonial-author">Moises</div>
-                                    <div class="testimonial-position">Job Title - Designer</div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <img class="testimonial-image" src="images/testimonial-3.jpg" alt="alternative">
-                                    <p class="testimonial-text">“Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Mauris pharetra et ultrices neque ornare aenean. Urna et pharetra pharetra massa. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Vulputate mi sit amet mauris lorem ipsum.”</p>
-                                    <div class="testimonial-author">Beto</div>
-                                    <div class="testimonial-position">Job Title - Designer</div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-
-                            </div> <!-- end of swiper-wrapper -->
-
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of slider-container -->
-                    <!-- end of card slider -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider-1 -->
+   
     <!-- end of testimonials -->
-
-
-    <!-- Statistics -->
-    <div class="counter bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Counter -->
-                    <div class="counter-container">
-                        <div class="counter-cell">
-                            <div data-purecounter-start="0" data-purecounter-end="231" data-purecounter-duration="3" class="purecounter">1</div>
-                            <div class="counter-info">Eget Lorem</div>
-                        </div> <!-- end of counter-cell -->
-                        <div class="counter-cell">
-                            <div data-purecounter-start="0" data-purecounter-end="385" data-purecounter-duration="1.5" class="purecounter">1</div>
-                            <div class="counter-info">Dolor Sedvi</div>
-                        </div> <!-- end of counter-cell -->
-                        <div class="counter-cell">
-                            <div data-purecounter-start="0" data-purecounter-end="159" data-purecounter-duration="3" class="purecounter">1</div>
-                            <div class="counter-info">Ipsum Nunc</div>
-                        </div> <!-- end of counter-cell -->
-                        <div class="counter-cell">
-                            <div data-purecounter-start="0" data-purecounter-end="128" data-purecounter-duration="3" class="purecounter">1</div>
-                            <div class="counter-info">Amet Cursus</div>
-                        </div> <!-- end of counter-cell -->
-                    </div> <!-- end of counter-container -->
-                    <!-- end of counter -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of counter -->
-    <!-- end of statistics -->
 
 
     <!-- Contact -->
@@ -417,8 +331,7 @@ include "./quiz/admin/conexion.php";
                     <h2 class="h2-heading">Contactanos</h2>
                     <p class="p-heading">Para cualquier duda o problema que tengas, escribenos en este formulario o hablanos por nuestras redes sociales</p>
                     <ul class="list-unstyled li-space-lg">
-                        <li><i class="fas fa-map-marker-alt"></i> &nbsp;22 Sodales, Etiam Sitame, KG 12345, RA</li>
-                        <li><i class="fas fa-phone"></i> &nbsp;<a href="tel:00123456789">+12 345 6789</a></li>
+                        <li><i class="fas fa-phone"></i> &nbsp;<a href="tel:00123456789">3322293187</a></li>
                         <li><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:contact@name.com">ProgFun@outlook.com</a></li>
                     </ul>
                 </div> <!-- end of col -->
@@ -429,13 +342,13 @@ include "./quiz/admin/conexion.php";
                     <!-- Contact Form -->
                     <form>
                         <div class="form-group">
-                            <input type="text" class="form-control-input" placeholder="Name" required>
+                            <input type="text" class="form-control-input" placeholder="Nombre" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control-input" placeholder="Email" required>
+                            <input type="email" class="form-control-input" placeholder="Correo" required>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control-textarea" placeholder="Message" required></textarea>
+                            <textarea class="form-control-textarea" placeholder="Agrega aqui tus dudas o comentarios" required></textarea>
                         </div>
                         <div class="form-group">
                             <button type="submit" class="form-control-submit-button">Enviar</button>
@@ -448,7 +361,6 @@ include "./quiz/admin/conexion.php";
         </div> <!-- end of container -->
     </div> <!-- end of form-1 -->
     <!-- end of contact -->
-
 
     <!-- Footer -->
     <div class="footer">
@@ -527,5 +439,4 @@ include "./quiz/admin/conexion.php";
     <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
-
 </html>

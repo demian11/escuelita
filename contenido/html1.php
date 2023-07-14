@@ -150,7 +150,7 @@ include ".././quiz/admin/conexion.php";
                         <div class="subheading mb-3">Como podras observar en la siguiente imagen, aprenderas a crear tu prmer estructura de un html y te enlistaremos para que
                             funciona cada cosa de la pagina
                         </div>
-                        <img src="./images/cuerpo.png" width="900" height="400">
+                        <img src="../images/cuerpo.png" width="900" height="400">
                     </div>
 
                 </div>
