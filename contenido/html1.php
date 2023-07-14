@@ -36,10 +36,10 @@ include ".././quiz/admin/conexion.php";
                 <a class="nav-link" href="../index.php">Inicio</a>
             </li>
             <li class=" nav-item ">
-                <a class="nav-link " href="#">css</a>
+                <a class="nav-link " href="../contenido/css.php">css</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">javascript</a>
+                <a class="nav-link" href="../contenido/javascript.php">javascript</a>
             </li>
 
             <?php
@@ -75,9 +75,9 @@ include ".././quiz/admin/conexion.php";
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Presentacion</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Elementos html</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Tamaño de letra</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Imagenes</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Enlaces</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
@@ -93,8 +93,8 @@ include ".././quiz/admin/conexion.php";
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                
-                
+
+
             </ul>
         </div>
     </nav>
@@ -204,11 +204,11 @@ include ".././quiz/admin/conexion.php";
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h1 class="mb-0">
-                            <"h1">Tu contenido<" /h1">
+                            <"h1">Tu titulo<" /h1">
                         </h1>
                         <br>
                         <h2 class="mb-0">
-                            <"h2">Aqui va el contenido que quieras<" /h2">
+                            <"h2">Aqui va tu subtitulo<" /h2">
                         </h2>
                         <br>
                         <h3 class="mb-0">
@@ -242,11 +242,32 @@ include ".././quiz/admin/conexion.php";
             </div>
         </section>
         <hr class="m-0" />
+
         <!-- Skills-->
         <section class="resume-section" id="skills">
             <div class="resume-section-content">
-                <h2 class="mb-5">Skills</h2>
-                <div class="subheading mb-3">Programming Languages & Tools</div>
+                <h2 class="mb-5">Imagenes</h2>
+                <div class="subheading mb-3">Para poder agregar imagenes en tu html necesitaras una etiqueta llamada img que se escribe de la siguiente forma:</div>
+                <div class="subheading mb-3">
+                    <"img src="" alt="">
+                </div>
+                <div class="subheading mb-3">El atributo <b>src</b> especifica la ruta o URL de la imagen que se mostrará.</div>
+                <div class="subheading mb-3">El atributo <b>alt</b> proporciona un texto alternativo que se mostrará si la imagen no se carga correctamente o si el usuario utiliza un lector de pantalla. Este texto también es útil para mejorar la accesibilidad de la página y proporcionar información sobre la imagen.</div>
+                <br>
+                <img src="../images/img.png" width="900" height="400">
+                <br>
+                <br>
+                <div class="subheading mb-3">Ademas si quieres darle el tamaño que quieras, puedes hacerlo de la siguiente manera como veras en estas imagenes de referencia</div>
+                <div style="display: inline;">
+                    <img src="../images/cafe.png" width="600" height="400">
+                    <img src="../images/cafe.png" width="400" height="200">
+                </div>
+                <br>
+                <br>
+                <div class="subheading mb-3">Su codigo es de la siguiente manera, conmo puedes ver de la siguiente manera el <b>width</b> ayuda a darle el ancho de la imagen.</div>
+                <div class="subheading mb-3">Para la etiqueta <b>width</b> height nos ayuda a darle la altura de la imagen  </div>
+                <img src="../images/img2.png" width="900" height="400">
+                <!-- Interests
                 <ul class="list-inline dev-icons">
                     <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                     <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
@@ -261,6 +282,7 @@ include ".././quiz/admin/conexion.php";
                     <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
                     <li class="list-inline-item"><i class="fab fa-npm"></i></li>
                 </ul>
+                
                 <div class="subheading mb-3">Workflow</div>
                 <ul class="fa-ul mb-0">
                     <li>
@@ -280,13 +302,14 @@ include ".././quiz/admin/conexion.php";
                         Agile Development & Scrum
                     </li>
                 </ul>
+                -->
             </div>
         </section>
         <hr class="m-0" />
         <!-- Interests-->
         <section class="resume-section" id="interests">
             <div class="resume-section-content">
-                <h2 class="mb-5">Interests</h2>
+                <h2 class="mb-5">Enlaces</h2>
                 <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
                 <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
             </div>
