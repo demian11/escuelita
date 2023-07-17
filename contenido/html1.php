@@ -36,10 +36,10 @@ include ".././quiz/admin/conexion.php";
                 <a class="nav-link" href="../index.php">Inicio</a>
             </li>
             <li class=" nav-item ">
-                <a class="nav-link " href="../contenido/css.php">css</a>
+                <a class="nav-link " href="../contenido/nivelCSS.php">css</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../contenido/javascript.php">javascript</a>
+                <a class="nav-link" href="../contenido/nivelJava.php">javascript</a>
             </li>
 
             <?php
@@ -78,21 +78,9 @@ include ".././quiz/admin/conexion.php";
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Tamaño de letra</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Imagenes</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Enlaces</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">juegos</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Regresar</a></li>
+
 
 
             </ul>
@@ -265,7 +253,7 @@ include ".././quiz/admin/conexion.php";
                 <br>
                 <br>
                 <div class="subheading mb-3">Su codigo es de la siguiente manera, conmo puedes ver de la siguiente manera el <b>width</b> ayuda a darle el ancho de la imagen.</div>
-                <div class="subheading mb-3">Para la etiqueta <b>width</b> height nos ayuda a darle la altura de la imagen  </div>
+                <div class="subheading mb-3">Para la etiqueta <b>width</b> height nos ayuda a darle la altura de la imagen </div>
                 <img src="../images/img2.png" width="900" height="400">
                 <!-- Interests
                 <ul class="list-inline dev-icons">
@@ -310,54 +298,35 @@ include ".././quiz/admin/conexion.php";
         <section class="resume-section" id="interests">
             <div class="resume-section-content">
                 <h2 class="mb-5">Enlaces</h2>
-                <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                <div class="subheading mb-3">Los enlaces HTML son hipervínculos.
+                    Puede hacer clic en un enlace y saltar a otro documento.
+                    Cuando mueva el mouse sobre un enlace, la flecha del mouse se convertirá en una pequeña mano.</div>
+                <div class="subheading mb-3">La etiqueta HTML <b>a</b> define un hipervínculo. Tiene la siguiente sintaxis</div>
+                <br>
+                <img src="../images/enalce.png" width="800" height="400">
+                <br>
+                <br>
+                <div class="subheading mb-3">El atributo más importante del <b>a</b> elemento es el hrefatributo, que indica el destino del enlace.
+                    El texto del enlace es la parte que será visible para el lector.
+                    Al hacer clic en el texto del enlace, se enviará al lector a la dirección URL especificada.</div>
             </div>
         </section>
         <hr class="m-0" />
         <!-- Awards-->
         <section class="resume-section" id="awards">
             <div class="resume-section-content">
-                <h2 class="mb-5">Awards & Certifications</h2>
+                <h2 class="mb-5">Ir a jugar</h2>
                 <ul class="fa-ul mb-0">
                     <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Google Analytics Certified Developer
+                        <h3><a href="../TemasJuego/index.html">Aqui completaras textos con la sintaxis del codigo anteriormente aprendido</a></h3>
                     </li>
+                    <br>
+                    <br>
                     <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Mobile Web Specialist - Google Certification
+                    <h2 class="mb-5">Hacer examen</h2>
+                        <h3><a href="../quiz/index.php">En este examen veras un resumen de todos los temas anteriormente aprendiendo dentro de todos los cursos</a></h3>
                     </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        1
-                        <sup>st</sup>
-                        Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        1
-                        <sup>st</sup>
-                        Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        2
-                        <sup>nd</sup>
-                        Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        1
-                        <sup>st</sup>
-                        Place - James Buchanan High School - Hackathon 2006
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        3
-                        <sup>rd</sup>
-                        Place - James Buchanan High School - Hackathon 2005
-                    </li>
+
                 </ul>
             </div>
         </section>

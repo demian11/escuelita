@@ -317,7 +317,6 @@ include "./quiz/admin/conexion.php";
     </div> <!-- end of filter -->
     <!-- end of projects -->
 
-
     <!-- Testimonials 
           __^__                                              __^__
          ( ___ )-------------------------------------------( ___ )
@@ -327,9 +326,7 @@ include "./quiz/admin/conexion.php";
          (_____)------------------------------------------(_____) 
          -->
          
-   
     <!-- end of testimonials -->
-
 
     <!-- Contact -->
     <div id="contact" class="form-1">
@@ -446,6 +443,6 @@ include "./quiz/admin/conexion.php";
     <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
     <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
     <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="./js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 </html>

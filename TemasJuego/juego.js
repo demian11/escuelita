@@ -84,7 +84,7 @@ comprobar.onclick = function(){
         if(totalAciertos==orden_correcto.length){
             txtResultado.innerHTML = "Muy bien!!";
         }else{
-            txtResultado.innerHTML = "Existen errores!!";
+            txtResultado.innerHTML = "Te equivocaste, intentalo de nuevo";
         }
     }else{
         alert("Completa las palabras");
