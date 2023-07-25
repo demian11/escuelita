@@ -93,6 +93,10 @@ include ".././quiz/admin/conexion.php";
                         <br>
                         <br>
                         <br>
+                        <br>
+                        <br>
+                        <br>
+                        
                         <h4 class="card-title">
                             <a href="#">Intermedio</a>
                         </h4>
@@ -120,6 +124,10 @@ include ".././quiz/admin/conexion.php";
                 <div class="card h-100">
                     <a href="#"><img class="card-img-top" src="https://img.freepik.com/vector-premium/codificador-habil-monitores-gadgets-personaje-masculino-que-desarrolla-sitios-web-codifica-programacion_316839-1306.jpg" alt=""></a>
                     <div class="card-body">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
                         <h4 class="card-title">
                             <a href="#">Avanzado</a>
                         </h4>

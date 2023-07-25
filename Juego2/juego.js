@@ -1,8 +1,8 @@
 //arreglo que contiene el orden correcto de las palabras
-let orden_correcto = ['ul', 'ol', 'li'];
+let orden_correcto = ['img', 'ruta', 'src'];
 
 //Palabras desordenadas para mostrar en opciones
-let palabras_juego = ['br', 'ul', 'li', 'ol', 'p', 'b'];
+let palabras_juego = ['src', 'ruta', 'img', 'href','br','h1'];
 
 //contenedr de las opciones
 let contenedorOpciones = document.getElementById("opciones");
@@ -12,7 +12,7 @@ let comprobar = document.getElementById("comprobar");
 let txtResultado = document.getElementById("resultado");
 
 //Arreglo que contiene el orden de las palabras que el usuario va eligiendo. Tambien me sirve para saber las posiciones disponibles
-let posDisponible = ["", "", "", "", "", ""];
+let posDisponible = ["", "", ""];
 
 //Función que agrega las opciones 
 function agregarOpciones(){
@@ -84,7 +84,7 @@ comprobar.onclick = function(){
         if(totalAciertos==orden_correcto.length){
             txtResultado.innerHTML = "Muy bien!!";
         }else{
-            txtResultado.innerHTML = "No hay problema, intentalo de nuevo";
+            txtResultado.innerHTML = "Te equivocaste, intentalo de nuevo";
         }
     }else{
         alert("Completa las palabras");

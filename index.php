@@ -275,7 +275,7 @@ include "./quiz/admin/conexion.php";
                         <div class="element-item business finance">
                             <a href="article.html">
                                 <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
-                                <p><strong>Financial products</strong> - pharetra et ultrices neque ornare aenean. Urna et pharetra</p>
+                                <p><strong>Financial products</strong>  pharetra et ultrices neque ornare aenean. Urna et pharetra</p>
                             </a>
                         </div>
                         <div class="element-item business finance">

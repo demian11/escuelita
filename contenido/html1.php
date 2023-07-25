@@ -162,9 +162,10 @@ include ".././quiz/admin/conexion.php";
                         <li><b>title Document /title:</b>El elemento title establece el título de la página que se mostrará en la barra de título del navegador.</li>
                         <br>
                         <li><b>body:</b>El elemento body contiene el contenido visible de la página, como texto, imágenes, enlaces y otros elementos.</li>
-                        <h2></h2>
+                        <br>
+                        <a href="#"><button type="button" class="btn btn-primary btn-block">Ver el resultado final</button></a>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                   
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
@@ -172,7 +173,7 @@ include ".././quiz/admin/conexion.php";
                         <div class="subheading mb-3">Aqui te dejamos un cosejo </div>
                         <p>Para evitar escribir cada linea de codigo explicada anteriormente te recomendamos escribir en tu editor de codigo "!" y despues presionas tabulador para que instantaneamente escriba todo</p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                   
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
@@ -180,7 +181,7 @@ include ".././quiz/admin/conexion.php";
                         <div class="subheading mb-3">Shout! Media Productions</div>
                         <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                    
                 </div>
             </div>
         </section>
