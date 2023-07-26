@@ -42,6 +42,10 @@ if(isset($_POST["submit"])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <link href="./css/login.css" rel="stylesheet">
   
     <title>Login</title>
@@ -67,14 +71,14 @@ if(isset($_POST["submit"])){
       <input type="password" name="cpassword" value="<?php echo $_POST['$cpassword']; ?>" required="">
       <label>Confirmar contraseña</label>
     </div>
-    <button name="submit" class="btn">
+    <button href="#" name="submit" class="btn btn-outline-primary">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
       Registarme
     </button>
-    <a href="./login.php">
+    <button onclick="window.location.href='./login.php'" class="btn btn-outline-primary">
       <span></span>
       <span></span>
       <span></span>

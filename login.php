@@ -29,6 +29,10 @@ if(isset($_POST["submit"])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <link href="./css/login.css" rel="stylesheet">
     <title>Login</title>
 </head>
@@ -48,7 +52,7 @@ if(isset($_POST["submit"])){
       <label>Contraseña</label>
     </div>
 
-    <button href="#" name="submit" class="btn">
+    <button href="#" name="submit" class="btn btn-outline-primary">
       <span></span>
       <span></span>
       <span></span>
@@ -56,13 +60,13 @@ if(isset($_POST["submit"])){
       Entrar
     </button>
     
-    <a href="./register.php">
+    <button onclick="window.location.href='./register.php'" class="btn btn-outline-primary">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
       Ir a Registrate
-    </a>
+    </button>
   </form>
 </div>
 </form>
