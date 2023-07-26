@@ -12,11 +12,10 @@ body{
 h1{
     text-align: center;
     color: #FFFFFF;
-   
 }
 span{
     display: inline-block;
-    background-color: #ff9100;
+    background-color: #c1c1c1;
     width: 100px;
     height: 20px;
     text-align: center;
@@ -50,7 +49,7 @@ span{
 
 .opciones .palabra{
     display: inline-block;
-    background-color: rgb(251, 125, 0);
+    background-color: rgb(206, 206, 206);
     color: #000000;
     margin: 5px;
     padding: 2px 5px;
@@ -59,7 +58,7 @@ span{
 }
 .opciones .palabra:hover{
     background-color: #000;
-    color:#fd6e00;
+    color:#cecece;
 }
 #resultado{
     text-align: center;
@@ -70,7 +69,7 @@ button{
     padding: 20px 50px;
     text-decoration: none;
     letter-spacing: 10px;
-    border:3px solid #fd6e00;
+    border:3px solid #909090;
     overflow: hidden;
     margin: auto;
     border-radius: 100px;
@@ -94,7 +93,7 @@ button::before{
     left: 0;
     bottom: -150%;
     border-radius: 30%;
-    background-color: #fd6e00;
+    background-color: #aeaeae;
     z-index: -1;
 }
 

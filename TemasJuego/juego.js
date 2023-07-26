@@ -1,8 +1,8 @@
 //arreglo que contiene el orden correcto de las palabras
-let orden_correcto = ['ul', 'ol', 'li'];
+let orden_correcto = ['ol', 'li', 'lista'];
 
 //Palabras desordenadas para mostrar en opciones
-let palabras_juego = ['br', 'ul', 'li', 'ol', 'p', 'b'];
+let palabras_juego = ['lista', 'ul', 'li', 'ol', 'p', 'b'];
 
 //contenedr de las opciones
 let contenedorOpciones = document.getElementById("opciones");
