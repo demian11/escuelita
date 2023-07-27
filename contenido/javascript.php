@@ -25,13 +25,13 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-warning fixed-top justify-content-center">
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="index.php">Inicio</a>
+      <a class="nav-link" href="../index.php">Inicio</a>
     </li>
     <li class=" nav-item ">
-      <a class="nav-link " href="#">css</a>
+      <a class="nav-link " href="./nivelCSS.php">css</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">javascript</a>
+      <a class="nav-link" href="./nivelHtml.php">Html</a>
     </li>
   </ul>
 </nav>

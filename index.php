@@ -74,11 +74,11 @@ include "./quiz/admin/conexion.php";
                             <li>
                                 <div class="dropdown-divider"></div>
                             </li>
-                            <li><a class="dropdown-item" href="./contenido/css.php">CSS</a></li>
+                            <li><a class="dropdown-item" href="./contenido/nivelCSS.php">CSS</a></li>
                             <li>
                                 <div class="dropdown-divider"></div>
                             </li>
-                            <li><a class="dropdown-item" href="./contenido/javascript.php">JAVASCRIPT</a></li>
+                            <li><a class="dropdown-item" href="./contenido/nivelJava.php">JAVASCRIPT</a></li>
                         </ul>
                     </li>
 
@@ -386,30 +386,8 @@ include "./quiz/admin/conexion.php";
                         </ul>
                     </div> <!-- end of footer-col -->
                     <div class="footer-col third">
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
+                       
+                       
                         <p class="p-small">Correo de contacto empresarial <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><strong>NeverGonna@gmail.com</strong></a></p>
                     </div> <!-- end of footer-col -->
                 </div> <!-- end of col -->

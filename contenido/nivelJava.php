@@ -74,13 +74,13 @@ include ".././quiz/admin/conexion.php";
                     <a href="#"><img class="card-img-top" src="../images/nivel1.jpg" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="./html1.php">Principiante</a>
+                            <a href="./javascript.php">Principiante</a>
                         </h4>
                         <p class="card-text">En este nivel empezaras aprender lo basico de html en donde
                             conoceras conceptos basicos como, crear la estructura basica de tu pagina,
                             como darle tamaño a tus textos, agregar imagenes y demas
                         </p>
-                        <a href="./html1.php" class="btn btn-primary">Ir a los cursos</a>
+                        <a href="./javascript.php" class="btn btn-primary">Ir a los cursos</a>
                     </div>
                 </div>
             </div>
