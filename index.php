@@ -381,7 +381,7 @@ include "./quiz/admin/conexion.php";
                     <div class="footer-col second">
                         <h6>herramientas de desarrollo</h6>
                         <ul class="list-unstyled li-space-lg p-small">
-                            <li>Visual Studio: <a href="https://code.visualstudio.com/">ir a la pagina</a> </li>                                             
+                            <li>Visual Studio:  <a href="https://code.visualstudio.com/">ir a la pagina</a> </li>                                             
                             <li>Menu: <a href="#header">Home</a>, <a href="#services">Services</a>, <a href="#projects">Projects</a>, <a href="#contact">Contact</a></li>
                         </ul>
                     </div> <!-- end of footer-col -->
