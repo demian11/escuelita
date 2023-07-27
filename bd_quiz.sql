@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 09-07-2023 a las 01:47:02
+-- Tiempo de generación: 27-07-2023 a las 19:51:10
 -- Versión del servidor: 10.4.27-MariaDB
 -- Versión de PHP: 8.1.12
 
@@ -59,7 +59,7 @@ CREATE TABLE `estadisticas` (
 --
 
 INSERT INTO `estadisticas` (`id`, `visitas`, `respondidas`, `completados`) VALUES
-(1, 15, 3, 0);
+(1, 43, 16, 1);
 
 -- --------------------------------------------------------
 
@@ -82,66 +82,66 @@ CREATE TABLE `preguntas` (
 --
 
 INSERT INTO `preguntas` (`id`, `tema`, `pregunta`, `opcion_a`, `opcion_b`, `opcion_c`, `correcta`) VALUES
-(1, 1, 'La definición de algoritmo es...', 'Un tipo de código informático', 'Una secuencia de instrucciones que representan un modelo de solución para determinado tipo de problemas, incluyendo todos los pasos necesarios.', 'Un lenguaje de programación', 'B'),
-(2, 1, '¿Qué es C++?', 'Un juego', 'Un programa', 'Un lenguaje de programación', 'C'),
-(3, 1, '¿Qué es una variable?', 'Un valor o dato', 'Un espacio dentro del espacio de memoria ram', 'Un lenguaje', 'B'),
-(4, 1, 'En javascript, la sentencia for sirve para', 'Repetir la ejecución de instrucciones', 'Cargar datos en un arreglo', 'Ninguna de las anteriores', 'A'),
-(5, 1, 'En un lenguaje de programación las constantes son...', 'Datos que varían', 'Datos regulares', 'Datos que no cambian en el proceso', 'C'),
-(6, 1, 'Un diagrama de flujo es ...', 'la forma de resolver un problema', 'La representación gráfica de un problema', 'El proceso de diseño de un algoritmo', 'B'),
-(7, 1, '¿Qué tipo de dato es el ejemplo A=5?', 'char', 'integer', 'string', 'B'),
-(8, 1, '¿Para qué sirve los lenguajes de programación de tipo general?', 'Crear y facilitar datos', 'Crear diferentes mecanismos', 'Crear distintos tipos de aplicaciones', 'C'),
-(9, 1, 'El número en binario 1010 corresponde', '10 en decimal', '8 en decimal', '7 en decimal', 'A'),
-(10, 1, 'Un &quot;array&quot; es...', 'Un tipo de dato estructurado que almacena datos, del mismo tipo y relacionados.', 'Una estructura que me permite repetir instrucciones la cantidad de veces que quiera', 'Ninguna de las anteriores', 'A'),
-(11, 2, '¿Con qué nombre se conoce el escándalo que obligó al presidente estadounidense Richard Nixon a dimitir?', 'Vietnam', 'NixonPrecess', 'Watergate', 'C'),
-(12, 2, '¿Qué emperador romano legalizó el cristianismo y puso fin a la persecución de los cristianos?', 'Nerón', 'Constanstino', 'Adriano', 'B'),
-(13, 2, '¿Qué hito informático de 1969 cambiaría radicalmente el curso de la historia de la humanidad?', 'El primer router wi-fi', 'La primera computadora personal', 'Internet', 'C'),
-(14, 2, '¿Quién fue el primer Presidente de Estados Unidos?', 'George Washington', 'Abraham Lincoln', 'Andrew Jackson', 'A'),
-(15, 2, '¿Por qué es significativo el Poema de Gilgamesh?', 'Fue un libro de estrategia militar de 500 páginas que sirvió en la antigua Mesopotamia', 'Es la primera obra épica que hace referencia a la inmortalidad y la percepción humana del alma', 'El tratado más antiguo que existe sobre el Inframundo.', 'B'),
-(16, 2, '¿Cuál es el nombre de la famosa batalla donde Napoleón Bonaparte fue derrotado?', 'La batalla de Hstings', 'La batalla de Álamo', 'La batalla de Waterloo', 'C'),
-(17, 2, '¿A través de qué río africano se alzó el antiguo Egipto?', 'Amazonas', 'Tigris', 'Nilo', 'C'),
-(18, 2, '¿A qué filósofo griego se atribuye la famosa obra “La República”?', 'Platón', 'Sócrates', 'Aristótleles', 'A'),
-(19, 2, '¿En qué año se disolvió la Unión Soviética?', 'En 1987', 'En 1989', 'En 1991', 'C'),
-(20, 2, '¿Qué científico es considerado el Padre de la Bomba Atómica?', 'Albert Einsein', 'Robert Openheimer', 'Leó Szilárd', 'B'),
-(21, 3, '¿Qué contienen los cloroplastos de las células vegetales?', 'Clorofila', 'Agua', 'Sábila', 'A'),
-(22, 3, '¿Qué es la malacología?', 'La ciencia que estudia los hongos', 'La ciencia que estudia los molusculos', 'La ciencia que estudia los ácaros', 'B'),
-(23, 3, '¿Qué significan las siglas ADN?', ' Ácido deoxinucleico', 'Ácido desorribonucleico', 'Ácido desoxirribonucleico', 'C'),
-(24, 3, 'Todos los organismos en el reino Animalia son:', 'Multicelulares y autótrofos', 'Multicelulares y autótrofos', 'Unicelulares y heterótrofos', 'B'),
-(25, 3, '¿Qué es un cardumen?', 'Una especie de planta', 'Un banco de peces', 'Una parte del abdomen de los insectos', 'B'),
-(26, 3, 'El sistema de clasificación taxonómica actual fue ideado por:', 'Darwin', 'Pateur', 'Linneo', 'B'),
-(27, 3, '¿Cuál de los siguientes animales tiene incisivos que continúan creciendo toda su vida?', 'Morsa', 'Hámster', 'Elefante', 'B'),
-(28, 3, '¿Cuánto vive un erizo?', 'Aproximadamente entre 4 y 5 años', 'Aproximadamente entre 7 y 8 años', 'Aproximadamente entre 9 y 12 años', 'A'),
-(29, 3, '¿Dónde realizan las plantas la fotosíntesis?', 'En las hojas', 'En la raíz', 'En el aire', 'A'),
-(30, 3, '¿Qué músculo impulsa la sangre por todo nuestro cuerpo?', 'El cerebro', 'Los pulmones', 'El corazón', 'C'),
-(31, 4, '¿Cómo se llama en tenis un punto de saque directo?', 'Revés', 'Love', 'Ace', 'C'),
-(32, 4, 'En natación, ¿cuánto mide de largo una piscina de competición para olimpiadas y mundiales?', '50 metros', '25 metros', '30 metros', 'A'),
-(33, 4, '¿Con cuántos jugadores en pista juega un equipo de voleibol?', '5', '9', '6', 'C'),
-(34, 4, '¿Cómo se llama en golf cuando completas un hoyo en un lanzamiento menos que el par del hoyo?', 'Albatros', 'Birdie', 'Eagle', 'B'),
-(35, 4, 'Las tres modalidades de la esgrima son: sable, espada y ...', 'Estoque', 'Florete', 'Estilo lbre', 'B'),
-(36, 4, '¿Cómo se llama en béisbol cuando un bateador golpea la bola y ésta sale del campo de juego, lo que le permite recorrer todas las bases con facilidad?', 'Strike', 'Hit', 'Home run', 'C'),
-(37, 4, '¿A qué distancia está el punto de penalty de la portería en fútbol?', '7 metros', '11 metros', '12 metros', 'B'),
-(38, 4, 'Completa esta frase de baloncesto: &quot;El arbitro pitó _____ segundos en la zona y el equipo local perdió el balón&quot;', 'Cinco', 'Venticuatro', 'Tres', 'C'),
-(39, 4, 'Si hablamos del jugador boya, estamos hablando de...', 'Boleibol', 'Hockey sobre patines', 'Waterpolo', 'C'),
-(40, 4, '¿Cómo se llama en rugby la lucha frente a frente de dos grupos de jugadores de los dos equipos que empujan para obtener el balón sin tocarlo con la mano?', 'Placaje', 'Melé', 'Ensayo', 'B'),
-(41, 5, 'Un poco de historia. ¿Qué sabio griego creía que la única ley básica que gobernaba el universo era el principio del cambio y que nada permanecía en el mismo estado indefinidamente?', 'Tales de Mileto', 'Heráclito', 'Aristóteles', 'B'),
-(42, 5, 'El método científico se usa en todas las ciencias, incluidas la física y la psicología.', 'Verdadero', 'Falso, en física no', 'Ninguna de las anteriores', 'A'),
-(43, 5, '¿Cómo se llama el instrumento que mide y registra la humedad relativa del aire?', 'Barómetro', 'Hidrómetro', 'Higrómetro', 'C'),
-(44, 5, 'Todo cuerpo que cae libremente en el vacío se caracteriza por tener...', 'Aceleración constante y velocidad variable', 'Fuerza variable y velocidad decreciente', 'Energía potencial constante y aceleración creciente', 'B'),
-(45, 5, 'Hablando de fuerzas... ¿cuál es la que mantiene unidas las moléculas de un cuerpo?', 'La fuerza de gravedad', 'La fuerza de cohesión', 'La fuerza de adhesión', 'B'),
-(46, 5, '¿Cuál es la distancia más pequeña posible en mecánica cuántica?', 'Tiempo de Wearden', 'Espuma cuántica', 'Longitud de Planck', 'C'),
-(47, 5, '¿Qué dos partículas elementales se describen como &lt;sin masa&gt;?', 'Fotón y gluón', ' Muón y neutrino', 'Electrón y protón', 'A'),
-(48, 5, '¿Cuál de estos fenómenos inspiró a Albert Einstein en su desarrollo de la relatividad general?', 'Ver a dos trenes moverse en direcciones opuestas', 'Ver a un hombre caerse de un tejado', 'La vibración de las cuerdas en un violín', 'B'),
-(49, 5, '¿El tiempo va siempre hacia adelante?', 'Siempre', 'No', 'En teoría...sí', 'C'),
-(50, 5, '¿Qué es la hidrostática?', 'Cantidad de masa encerrada en un volumen', 'Presión de los líquidos a todas las direcciones', 'Cuerpo de masa que crece de una forma', 'B'),
-(51, 7, 'Originario del Oriente Medio, el falafel es una de las comidas callejeras favoritas de todo el mundo. ¿Cuál es el ingrediente principal del falafel?', 'Las semillas de sésamo', 'La harina', 'Los garbanzos', 'C'),
-(52, 7, 'Las arepas son pasteles de maíz a menudo rellenos con ingredientes como queso, verduras y carne. ¿Qué 2 países dicen haber inventado este delicioso plato?', 'Colombia y Venezuela', 'Venezuela y Argentina', 'Chile y Colombia', 'A'),
-(53, 7, 'La comida callejera más popular del Perú, y éxito de exportación culinaria, es sin duda el ceviche. En este plato, ¿el pescado crudo se cura agregándole qué ingrediente?', 'Vinagre', 'Zumos cítricos', 'Aceite caliente', 'B'),
-(54, 7, '¿En qué país se considera de mala educación comer mientras se camina (con algunas excepciones)?', 'Italia', 'China', 'Japón', 'C'),
-(55, 7, 'En Italia, ¿los arancini son unas albóndigas fritas de qué?', 'Espaguetis', 'Risotto', 'Aceitunas', 'B'),
-(56, 7, '¿En qué país se considera de mala educación comer mientras se camina (con algunas excepciones)?', 'Italia', 'China', 'Japón', 'C'),
-(57, 7, 'Un buen mate se prepara con el agua...', 'A 80 grados', 'Hirviendo', 'Tibia', 'A'),
-(58, 7, '¿Qué otro país nos disputa la invención del argentinísimo dulce de leche?', 'Chile', 'Brasil', 'Uruguay', 'C'),
-(59, 7, 'Una milanesa con jamón, queso y salsa de tomate se llama...', 'Milanesa siciliana', 'Milanesa napolitana', 'Milanesa maradoniana', 'B'),
-(60, 7, '¿Cuáles son los ingredientes más comunes de toda empanada de carne?', 'Carne picada, huevos, cebollas y aceitunas', 'Carne picada, huevos, tomate y aceitunas', 'Carne picada, huevos, uva y choclo', 'A');
+(1, 2, '¿Cuál es la etiqueta para crear un título de nivel 1 en HTML?', ' &lt;title&gt;', ' &lt;h1&gt;', ' &lt;head&gt;', 'B'),
+(2, 2, '¿Qué etiqueta se utiliza para insertar una imagen en una página web?', '&lt;img src=&quot;imagen.jpg&quot;&gt;', '&lt;img&gt;', '&lt;image&gt;', 'A'),
+(3, 2, '¿Cuál es la etiqueta para crear un enlace en HTML?', '&lt;link&gt;', '&lt;a&gt;', '&lt;href&gt;', 'B'),
+(4, 2, '¿Cuál es la etiqueta para crear una lista ordenada en HTML?', ' &lt;ul&gt;', '&lt;li&gt;', ' &lt;ol&gt;', 'C'),
+(5, 2, '¿Qué atributo se utiliza para establecer el texto alternativo de una imagen en HTML?', ' alt', ' text', 'description', 'A'),
+(6, 2, '¿Cuál es la etiqueta para agregar un salto de línea en HTML?', '&lt;br&gt;', ' &lt;nl&gt;', '&lt;lb&gt;', 'A'),
+(7, 2, '¿Cuál es la etiqueta para crear un botón en HTML?', '&lt;button&gt;', '&lt;input type=&quot;button&quot;&gt;', '&lt;btn&gt;', 'A'),
+(8, 2, '¿Qué etiqueta se utiliza para crear una tabla en HTML?', '&lt;table&gt;', '&lt;tab&gt;', ' &lt;tr&gt;', 'A'),
+(9, 2, '¿Cuál es la etiqueta para crear un párrafo en HTML?', ' &lt;par&gt;', '&lt;para&gt;', ' &lt;p&gt;', 'C'),
+(10, 2, '¿Qué atributo se utiliza para establecer el color de fondo de un elemento en HTML?', 'bgcolor', ' background-color', ' color', 'B'),
+(11, 3, '¿Cuál es la etiqueta correcta para crear una lista desordenada en HTML?', '&lt;ul&gt;', '&lt;ol&gt;', '&lt;li&gt;', 'C'),
+(12, 3, '¿Qué etiqueta se utiliza para definir el encabezado de una tabla en HTML?', ' &lt;head&gt;', '&lt;header&gt;', '&lt;th&gt; ', 'C'),
+(13, 3, '¿Cuál es la etiqueta correcta para insertar un salto de línea en un atributo &quot;alt&quot; de una imagen?', '&lt;nl&gt;', '&lt;br&gt;', '&lt;br/&gt;', 'C'),
+(14, 3, '¿Qué atributo se utiliza para establecer el color de texto de un elemento en HTML?', 'color', 'font-color', 'style', 'C'),
+(15, 3, '¿Cuál es la etiqueta para crear un enlace que se abra en una nueva ventana o pestaña del navegador?', '&lt;a href=&quot;url&quot; target=&quot;_self&quot;&gt;', ' &lt;a href=&quot;url&quot; target=&quot;_blank&quot;&gt;', '&lt;a href=&quot;url&quot; target=&quot;_parent&quot;&gt;', 'B'),
+(16, 3, '¿Cuál es la etiqueta correcta para definir una celda de encabezado en una tabla?', '&lt;td&gt;', ' &lt;th&gt;', '&lt;tr&gt;', 'B'),
+(17, 3, '¿Qué etiqueta se utiliza para crear un formulario en HTML?', ' &lt;form&gt; ', '&lt;input type=&quot;form&quot;&gt;', '&lt;input type=&quot;submit&quot;&gt;', 'A'),
+(18, 3, '¿Cuál es la etiqueta correcta para insertar un salto de línea en un párrafo?', ' &lt;br&gt;', '&lt;nl&gt;', '&lt;lb&gt;', 'A'),
+(19, 3, '¿Qué atributo se utiliza para establecer el ancho de una imagen en HTML?', 'width', 'size', 'length', 'A'),
+(20, 3, '¿Cuál es la etiqueta para crear una lista de definición en HTML?', '&lt;ul&gt;', '&lt;dl&gt;', '&lt;ol&gt;', 'B'),
+(21, 4, '¿Cuál es la propiedad CSS utilizada para establecer el color de texto?', 'text-color', 'color', 'text-style', 'B'),
+(22, 4, '¿Qué propiedad se utiliza para establecer el tamaño de fuente de un texto?', 'font-style', 'font-size', 'text-size', 'B'),
+(23, 4, '¿Cuál es la propiedad CSS utilizada para establecer el margen exterior de un elemento?', 'margin', 'padding', 'border', 'A'),
+(24, 4, '¿Qué propiedad se utiliza para establecer el estilo de borde de un elemento?', 'border-style', 'border-width', 'border-color', 'A'),
+(25, 4, '¿Cuál es la propiedad CSS utilizada para alinear el contenido de un elemento horizontalmente?', 'text-align', 'horizontal-align', 'align-items', 'A'),
+(26, 4, '¿Qué propiedad se utiliza para establecer el color de fondo de un elemento?', 'background-color', 'color', 'background', 'A'),
+(27, 4, '¿Cuál es la propiedad CSS utilizada para establecer el ancho de un elemento?', 'length', 'size', 'width', 'C'),
+(28, 4, '¿Qué propiedad se utiliza para establecer el espacio entre las letras de un texto?', 'text-space', 'letter-spacing', 'line-height', 'B'),
+(29, 4, '¿Cuál es la propiedad CSS utilizada para establecer el tamaño de la caja de un elemento?', 'box-size', 'size', 'width', 'C'),
+(30, 4, '¿Qué propiedad se utiliza para establecer la altura de un elemento?', 'size', 'height', 'length', 'B'),
+(31, 5, '¿Cuál es la propiedad CSS utilizada para establecer el espacio entre las líneas de un texto?', 'line-height', 'line-spacing', 'text-spacing', 'A'),
+(32, 5, '¿Qué propiedad se utiliza para establecer la opacidad de un elemento?', 'opacity', 'visibility', 'display', 'A'),
+(33, 5, '¿Cuál es la propiedad CSS utilizada para establecer el espacio entre elementos adyacentes?', 'margin', 'padding', 'gap', 'C'),
+(34, 5, '¿Qué propiedad se utiliza para establecer la alineación vertical del contenido de un elemento?', 'vertical-align', 'align-items', 'text-align', 'A'),
+(35, 5, '¿Cuál es la propiedad CSS utilizada para establecer una sombra alrededor de un elemento?', 'shadow', 'text-shadow', 'box-shadow', 'C'),
+(36, 5, '¿Qué propiedad se utiliza para establecer el estilo de borde de un elemento individualmente (arriba, abajo, izquierda, derecha)?', 'border-style', 'border', 'border-individual', 'B'),
+(37, 5, '¿Cuál es la propiedad CSS utilizada para establecer el tamaño mínimo de un elemento?', 'min-size', 'min-width', 'min-height', 'B'),
+(38, 5, '¿Qué propiedad se utiliza para establecer la posición de un elemento en relación a su contenedor padre?', 'position', 'top', 'left', 'A'),
+(39, 5, '¿Cuál es la propiedad CSS utilizada para establecer el orden de apilamiento de elementos posicionados?', 'z-index', 'stack-order', 'order', 'A'),
+(40, 5, '¿Qué propiedad se utiliza para establecer una imagen de fondo en un elemento?', 'background', 'background-color', 'background-image', 'C'),
+(41, 1, '¿Que tiene de malo este codigo ?let high Score', 'Contiene un espacio', 'Contiene una letra mayúscula', 'Niguna', 'A'),
+(42, 1, '¿Por qué damos a las variables descriptivas como city o country en lugar de x o y?', 'Para que sean mas rápidos de escribir', 'Es por que es obligatorio ponerlo', 'Para ayudarnos a entender a los que hay dentro de ellos.', 'C'),
+(43, 1, '¿Que palabras podemos usar para declara variables?', 'let', 'let y variable ', 'let y const', 'C'),
+(44, 1, '¿Para que usamos camel case?', 'Para crear nombres con varias palabras', 'Para crear nombres de variables con espacios', 'Para crear solo variables ', 'A'),
+(45, 1, '¿Cual es el valor de esta variable? let name = “Karin”;', '”Karin”', 'name', 'let', 'A'),
+(46, 1, '¿Como sabemos que un valor es una cadena?', 'Contiene un símbolo =', 'Es una palabra entre comillas dobles', 'Son muchas variables juntas', 'B'),
+(47, 1, '¿Que esta pasando en este código? const browser = “Chrome”?', 'La variable “Chrome” almacena el valor browser', 'Esta mal definida la variable', 'La variable  browser almacena el valor “Chrome” ', 'A'),
+(48, 1, '¿Cual es el nombre de esta variable?  let hobby = “Tree shaping”;', 'let', 'hobby', '“Tree shaping”', 'B'),
+(49, 1, '¿Que significa const?', 'Continuo', 'Ninguna', 'Constante', 'C'),
+(50, 1, '¿Podemos asignar un nuevo valor a  una variable let?', 'Verdadero', 'Falso', '.', 'A'),
+(51, 6, '¿Cual es el estándar opcional para asegurarse de que las constantes no cambien sus valores?', 'mayuscula', 'caso de serpiente minúscula', '.', 'A'),
+(52, 6, '¿Que devemos usar como predeterminado?', 'const', 'let', 'count', 'B'),
+(53, 6, '¿Como sabemos que “Hello, World!” es una cadena?', 'Comienza y termina con comillas dobles', 'Solo es texto', 'Contiene letras y símbolos', 'A'),
+(54, 6, '¿Que es una consola?', 'Es un área donde escribimos codigo', 'Es donde escribimos documentos', 'Un área que muestra la salida', 'C'),
+(55, 6, '¿Que hace la instrucción especial console.log()?', 'Crea una variable', 'Muestra un valor en la consola', 'Crea un arreglo', 'B'),
+(56, 6, '¿Que muestra este codigo en consola?\r\nconst sport = “B-ball”;\r\nconsole.log(sport);\r\n\r\n', 'sport', 'Un Error', 'B-ball', 'C'),
+(57, 6, '¿Cual de estas lineas de codigo actualiza la variable currentStatus?', 'currentStatus = “Working out”;', 'let currentStatus =”Working out”;', ' currentStatus =”Working ”;', 'A'),
+(58, 6, '¿Que muestra este codigo en la consola?\r\nconst currentStatus = “Watching Netflix”;\r\nconsole.log(currentStatus );\r\n', 'currentStatus ', 'Watching Netflix', 'const currentStatus', 'B'),
+(59, 1, '¿Que tiene de malo este código?\r\nfirstName =”Lori”;\r\nfirstName =”Joe”;\r\n', 'Falta la palabra clave let en la primera linea ', 'Repite firstName', 'Nada', 'A'),
+(60, 6, '¿Que muestra este codigo en la consola?\r\nlet firstName =”Lori”;\r\nfirstName =”Joe”;\r\nconsole.log(firstName );\r\n', 'Lori', 'Joe', 'LoriJose', 'B');
 
 -- --------------------------------------------------------
 
@@ -159,13 +159,12 @@ CREATE TABLE `temas` (
 --
 
 INSERT INTO `temas` (`id`, `nombre`) VALUES
-(1, 'Programación'),
-(2, 'Historia'),
-(3, 'Biología'),
-(4, 'Deporte'),
-(5, 'Física'),
-(6, 'Ingles'),
-(7, 'Comida');
+(1, 'JavaScript facil'),
+(2, 'HTML Facil'),
+(3, 'HTML Medio'),
+(4, 'CSS Facil'),
+(5, 'CSS Medio'),
+(6, 'JavaScript Medio');
 
 -- --------------------------------------------------------
 
@@ -254,7 +253,7 @@ ALTER TABLE `preguntas`
 -- AUTO_INCREMENT de la tabla `temas`
 --
 ALTER TABLE `temas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`

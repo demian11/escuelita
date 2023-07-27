@@ -316,7 +316,7 @@ include ".././quiz/admin/conexion.php";
         <!-- Awards-->
         <section class="resume-section" id="awards">
             <div class="resume-section-content">
-                <h2 class="mb-5">Ir a jugar</h2>
+                <h2 class="mb-5">Antes de que te vallas, nos gustaria que pongas a prueba tus conocimientos </h2>
                 <ul class="fa-ul mb-0">
                     <li>
                         <h3><a href="../TemasJuego/index.html">Aqui completaras textos con la sintaxis del codigo anteriormente aprendido</a></h3>
@@ -324,6 +324,7 @@ include ".././quiz/admin/conexion.php";
                     <br>
                     <br>
                     <li>
+                        <!-- Tal vez se elimine este elemento -->
                     <h2 class="mb-5">Hacer examen</h2>
                         <h3><a href="../quiz/index.php">En este examen veras un resumen de todos los temas anteriormente aprendiendo dentro de todos los cursos</a></h3>
                     </li>

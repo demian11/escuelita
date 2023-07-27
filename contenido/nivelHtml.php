@@ -61,6 +61,7 @@ include ".././quiz/admin/conexion.php";
         <h1 class="my-4">
             <small>Selecciona la dificultad</small>
         </h1>
+        
         <br>
         <br>
         <br>
