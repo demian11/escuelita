@@ -315,7 +315,7 @@ include "./quiz/admin/conexion.php";
                         if (isset($_SESSION['nombre'])) {
                             $nombreDeUsuario = $_SESSION['nombre'];
                         ?>
-                        <p class="p-small">Graficas de los usuarios suscritos <a href="./grafica/index.php"><strong>ver datos de usuarios</strong></a></p>
+                        <p class="p-small">Graficas de los usuarios suscritos <a href="./graficas/index.php"><strong>ver datos de usuarios</strong></a></p>
                         <?php } ?>
                     </div> <!-- end of footer-col -->
                 </div> <!-- end of col -->
