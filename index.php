@@ -63,9 +63,7 @@ include "./quiz/admin/conexion.php";
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Contenido</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">temas de interes</a>
-                    </li>
+                   
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Cursos</a>
@@ -236,85 +234,7 @@ include "./quiz/admin/conexion.php";
     <!-- end of services 3 -->
 
     <!-- Projects -->
-    <div id="projects" class="filter bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-heading">Temas de interes para estudar</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Filter -->
-                    <div class="button-group filters-button-group">
-                        <button class="button is-checked" data-filter="*">Mostrar todo</button>
-                        <button class="button" data-filter=".business">Estructura</button>
-                        <button class="button" data-filter=".finance">Diseño</button>
-                        <button class="button" data-filter=".software">funcionalidad</button>
-                    </div> <!-- end of button group -->
-                    <div class="grid">
-                        <div class="element-item finance">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
-                                <p><strong>Online banking</strong> - imperdiet sed euismod nisi porta lorem Aliquam vestibulu</p>
-                            </a>
-                        </div>
-                        <div class="element-item finance">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
-                                <p><strong>Loans company</strong> - sit amet cursus sit amet dictum sit hendrerit gravida rutrum</p>
-                            </a>
-                        </div>
-                        <div class="element-item finance">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
-                                <p><strong>Refinance firm</strong> - eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim</p>
-                            </a>
-                        </div>
-                        <div class="element-item business finance">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
-                                <p><strong>Financial products</strong>  pharetra et ultrices neque ornare aenean. Urna et pharetra</p>
-                            </a>
-                        </div>
-                        <div class="element-item business finance">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-5.jpg" alt="alternative">
-                                <p><strong>Credit cards</strong> - duis ultricies lacus sed turpis tincidunt id aliquet risus ulputate</p>
-                            </a>
-                        </div>
-                        <div class="element-item business software">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-6.jpg" alt="alternative">
-                                <p><strong>Software robots</strong> - mi sit amet mauris tempor orci eu lobortis elementu eros donec</p>
-                            </a>
-                        </div>
-                        <div class="element-item business software">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-7.jpg" alt="alternative">
-                                <p><strong>Company control</strong> - ac odio tempor orci dapibus ultrices in orci eu lobortis</p>
-                            </a>
-                        </div>
-                        <div class="element-item business software">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-8.jpg" alt="alternative">
-                                <p><strong>Audit reports</strong> - imperdiet sed euismod nisi porta lorem aliquam vestibulum</p>
-                            </a>
-                        </div>
-                        <div class="element-item business software">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-9.jpg" alt="alternative">
-                                <p><strong>Big business</strong> - cursus risus at ultrices mi tempust venenatis urna cursus eget</p>
-                            </a>
-                        </div>
-                    </div> <!-- end of grid -->
-                    <!-- end of filter -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of filter -->
+    
     <!-- end of projects -->
 
     <!-- Testimonials 
@@ -389,6 +309,14 @@ include "./quiz/admin/conexion.php";
                        
                        
                         <p class="p-small">Correo de contacto empresarial <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><strong>NeverGonna@gmail.com</strong></a></p>
+
+                        <?php
+                        
+                        if (isset($_SESSION['nombre'])) {
+                            $nombreDeUsuario = $_SESSION['nombre'];
+                        ?>
+                        <p class="p-small">Graficas de los usuarios suscritos <a href="./grafica/index.php"><strong>ver datos de usuarios</strong></a></p>
+                        <?php } ?>
                     </div> <!-- end of footer-col -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
