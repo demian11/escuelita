@@ -1,3 +1,10 @@
+<?php
+
+session_start();
+include ".././quiz/admin/conexion.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Cursos de javascript</title>
+        <title>Cursos de html</title>
 
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -25,33 +32,51 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-warning fixed-top justify-content-center">
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="index.php">Inicio</a>
+      <a class="nav-link" href="../index.php">Inicio</a>
     </li>
     <li class=" nav-item ">
-      <a class="nav-link " href="#">css</a>
+      <a class="nav-link " href="./nivelCSS.php">css</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">javascript</a>
+      <a class="nav-link" href="./nivelHtml.php">Html</a>
     </li>
-  </ul>
+    
+    <?php
+
+if (isset($_SESSION['nombre'])) {
+    $nombreDeUsuario = $_SESSION['nombre'];
+?>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false"><?php echo $_SESSION['nombre'] ?></a>
+        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+            <li><a class="dropdown-item" href="../quiz/admin/cerrar-sesion.php">cerrar sesion</a></li>
+        </ul>
+    </li>
+<?php } else { ?>
+    <li class="nav-item">
+        <a class="nav-link" href="../login.php">Iniciar sesion</a>
+    </li>
+<?php } ?>
+<!-- aqui termina para mostrar el usuario o iniciar sesion -->
+</ul>
 </nav>
 <!--fi de Barra de navegacion superior-->
 
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-warning fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">JAVASCRIPT NIVEL MEDIO</span>
+                <span class="d-block d-lg-none">JAVASCRIPT</span>
                 
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Presentacion</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Uso de variables</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">a</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">a</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">d</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">d</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Asincronismo y promesas</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Funciones avanzadas</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">fuciones flecha</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">constructores y prototipos</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Clases</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Regrese al inicio del curso</a></li>
 
                     
@@ -65,8 +90,8 @@
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                    Bienvenido al curso  de nivel medio de
-                        <span class="text-warning">JAVASCRIPT!</span>
+                    BIENVENIDO AL CURSO DE NIVEL
+                        <span class="text-warning"> MEDIO DE JAVASCRIPT!</span>
                     </h1>
                     <div class="subheading mb-5">
                         <!-- 
@@ -75,9 +100,9 @@
                         -->
                     </div>
                     
-                    <p class="lead mb-5">En este nivel intermedio, exploraremos en profundidad cómo podemos utilizar JavaScript para crear interactividad  <br> 
-                        y funcionalidades más avanzadas en nuestros proyectos web..
-            
+                    <p class="lead mb-5">En este nivel intermedio, exploraremos en profundidad cómo podemos utilizar JavaScript para crear interactividad
+                        y funcionalidades más avanzadas en nuestros proyectos web.
+                        
                     </p>
                     <div class="social-icons">
                     <!--
@@ -90,58 +115,53 @@
 
                 </div>
             </section>
+
+
             <hr class="m-0" />
             <!-- Experience-->
-         
-                
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2>¡Espera!</h2>
+                    <div class="subheading mb-3">Los sitios web dínamicos necesitamos recordar información para mostrar o cambiar.Para<br>
+                eso, JavaScript tiene valiables.<br>
+                Al igual  que las cajas moviles ,las variables tienen contenido y nombres que nos dicen qué hay dentro.</div>
+                    <div class="social-icons">
+                    <a class="social-icon" href="https://codepen.io/pen/"><i class="fa-solid fa-code"></i></a>  <ul class="list-inline dev-icons"> <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                </div>
                     <br>
-                    <h2 class="mb-5">Uso de variables</h2>
+                    <br>
+                    <br>
+                    <h2 class="mb-5">Asincronismo y Promesas</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><!-- aqui puede ir texto--></h3>
-                            <div class="subheading mb-3">
+                            <div class="subheading mb-3">El asincronismo es una parte fundamental de JavaScript y es esencial 
+                                para trabajar con operaciones de red y otras tareas asíncronas.
                             </div>
-                            <img src="../images/ejemjava.png" width="900" height="400" >
+                           
                         </div>
                         
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"></h3>
-                            <h3 class="mb-0">Creacion de variables.</h3>
+                            <h3 class="mb-0">Aqui tienes unos ejemplos de este tema</h3>
                             <div class="subheading mb-3"><!-- aqui puede ir texto--></div>
-                            <li><b>let y const:</b> Usamos <b>let</b> y <b>const</b>para crear variables,cubriremos la riferencia entre ellos mas adelante.</li>
+                            <li><b>Callbacks:</b> Comprenderás cómo funcionan los callbacks y cómo manejar operaciones asíncronas utilizando funciones de devolución de llamada.</li>
                             <br>
-                            <li><b>Nombre:</b> Toda variable nesecita un <b>nombre</b>. <br>
-                            Los nombres de las variables deben ser palabras sueltas y, por lo tanto, no deben tener espacios.</li>
+                            <li><b>Promesas:</b>  Introduciremos las promesas, que ofrecen una forma más elegante de manejar operaciones asíncronas y evitar el anidamiento excesivo de funciones.</li>
                             <br>
-                            <li>Ejemplo: let <b>city</b> </li>
+                            <li><b>Async/Await:</b>Aprenderás cómo utilizar async/await, una forma más moderna y legible de trabajar con operaciones asíncronas en JavaScript. </li>
                             <br>
-                            <li><b>Camel case:</b> Para crear nombres de variables con varias palabras, usamos <b>camel case</b>. <br>
-                            Empezamos con una letra minúscula y ponemos una mayúscula las palabras adicionales</li>
+                            <li><b>Constructores y Prototipos:</b> Aprenderás sobre constructores de objetos y cómo crear instancias de objetos a través de funciones constructoras. 
+                            También entenderás cómo funcionan los prototipos y cómo heredar propiedades y métodos.</li>
                             <br>
-                            <li>Ejemplo: let <b>homeCity</b></li>
-                            <br>
-                            <li>Para ayudarnos a comprender qué hay dentro de una variable, elegimos <b>nombres descriptivos</b>. </li>
-                            <br>
-                            <li>Ejemplo: const <b>windyCity</b></li>
-                            <br>
-                            <li>Los nombres de variables tambien pueden contener <b>números</b> . Sumar números es útil con múltiples cariables similares.</li>
-                            <br>
-                            <li>Ejemplo: const <b>car1</b></li>
-                            <br>
-                            <li>Después de crear y nombran una variable,ussamos elsigno = para almacenar un <b>valor dentro de ella</b>.</li>
-                            <br>
-                            <li>Ejemplo: const city <b>=</b> "Chicago"</li>
-                            <br>
-                            <li>Para terminar de crear una variable , ponemos un punto y coma, <b>;</b> ,al final de la linea.</li>
-                            <br>
-                            <li>Ejemplo: const city = "Chicago"<b>;</b></li>
-                            <br>
+                          
                             <h2></h2>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary"></span></div>
                     </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"></h3>
@@ -150,6 +170,7 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary"></span></div>
                     </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"></h3>
@@ -160,80 +181,56 @@
                     </div>
                 </div>
             </section>
+
+            
+
             <hr class="m-0" />
-            <!-- Education-->
+            <!-- Skills-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Cadenas</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                        <li>Los varoles que hemos estado almacenando son <b>cadenas</b>. Las cadenas  son palabras entre comillas dobles.</li>
-                            <br>
-                            <li>Ejemplo:<b>"Chicago"</b></li>
-                            <br>
-                            <li>Las cadenas pueden contener todo tipo de letras y símbolos,incluidos espacios.</li>
-                            <br>
-                            <li>Ejemplo:<b>"Winter is coming"</b></li>
-                            <br>
+                    <h2 class="mb-5"> Funciones Avanzadas</h2>
+                    <div class="subheading mb-3">Las funciones de orden superior son funciones que pueden aceptar otras funciones como 
+                        argumentos o devolver funciones como resultado. Estas funciones son poderosas y versátiles, y son ampliamente utilizadas en JavaScript. 
+                        Un ejemplo común de una función de orden superior es Array.prototype.map(), que toma una función de transformación como argumento y devuelve un nuevo array con los 
+                        resultados de aplicar esa función a cada elemento del array original.</div>
                     
+                        <img src="../images/d.png" width="900" height="400">
+                        </section>
+
+                        <hr class="m-0" />
+                    <!-- Awards-->
+                    <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Funciones Flecha (Arrow Functions)</h2>
+                    <div class="subheading mb-3">Las funciones flecha son una forma concisa de escribir funciones en JavaScript. Son especialmente útiles cuando necesitas mantener el valor de this en contextos específicos. 
+                        Tienen una sintaxis más corta y clara en comparación con las funciones tradicionales.</div>
+                        <img src="../images/d.png" width="900" height="400">
+                        </section>
+                        
+
+                        
+            <hr class="m-0" />
             <!-- Skills-->
-            <section class="resume-section" id="Const">
+            <section class="resume-section" id="interests">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Let y Const</h2>
-                    <div class="subheading mb-3"></div>
+                    <h2 class="mb-5"> Constructores y Prototipos</h2>
+                    <div class="subheading mb-3">En JavaScript, los objetos pueden ser creados usando funciones constructoras que actúan como plantillas para crear instancias de objetos con propiedades y métodos.
+                         Además, los objetos en JavaScript pueden heredar 
+                        propiedades y métodos de otros objetos utilizando prototipos.</div>
                     
-                        <!-- <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>-->
-                        <li>Usamos <b>const</b> para declarear variables cuyos valores se supone que no deben cambiar,const es una abreviatura de ce "constante".</li>
-                            <br>
-                            <li>Ejemplo: <b>const</b> norwayCapital = "Oslo"; </li>
-                            <br>
-                            <li>Para que sea obvio que una variable es de tipo <b>const</b> y no debe cambiar,opcionalmente podemosnombrarla con letras mayúsculas.</li>
-                            <br>
-                            <li>Ejemplo: const <b>BIRTHDAY</b> = "05/08/1995"; </li>
-                            <br>
-                            <li>No podemos usar <b>camelCase</b>si usamos este estándar en mayúsculas,por lo que usamos mayúsculas <b>snake_case</b><br>
-                             para nombrar variables con más de una palabra.</li>
-                            <br>
-                            <li>Ejemplo: const <b>SPEED_OF_LIGTH</b> = "299 792 458 m/s"; </li>
-                            <br>
-                            <li>Ambas  <b>let y const</b> son variables útiles y podríamos usarlas indistintamente. Sin embargo,<br>
-                            deberíamos intentar utilizar <b>const</b>. por defecto. </li>
-                            <br>
-                            <li>Ejemplo: const <b>SPEED_OF_LIGTH</b> = "299 792 458 m/s"; </li>
-                            <br>
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
+                        <img src="../images/d.png" width="900" height="400">
+                        </section>
+
+                        <hr class="m-0" />
+                    <!-- Awards-->
+                    <section class="resume-section" id="awards">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Instrucciones</h2>
-
-
-                    <li>Las lineas de código son <b>instrucciones</b>que debe seguir la computadora <br>
-                Cuando ejecutamos el código, le decimos a la computadora que siga las instrucciones que reunimos.</li>
-                            <br>
-                            <br>
-                            <li>El orden de las instrucciones importa porque la comuputadora sigue las instrucciones línea por línea.</li>
-                            <br>
-                            <li>Ejemplo:<br>
-                             const <b>step1</b> = "Collect pants";  <br>   
-                        const <b>step2</b> = "?"; <br> 
-                        const <b>step3</b> = "Profit"; </li>
-                            <br>
-                            <li>Con la instruccion especial <b>console log().</b>le decimos a la computadora que muestre un valor en un área llamada <b>consola.</b></li>
-                            <br>
-                            <li>Ejemplo: <p>console.log("Hello world");</p></li>
-                            <br>
-                            <li>Podemos usar la instruccion <b>console.log()</b> tantas veces como queramos.La computadora  muestra cada valor en una linea en consola.</li>
-                            <br>
-                            <li>Ejemplo:  <br>
-                             <b>console.log("3,2,1");</b> <br>
-                            <b>console.log("GO!");</b></li>
-                            <br>
-                            <li>Cuando mostramos variables en la consola,sus valores aparecen en un lugar de sus nombres.</li>
-                            <br>
-                            const <b>name</b> = "Daenerys"; <br> 
-                            <p>console.log(<b>name</b>);</p></li></li>
-                            <br>
+                    <h2 class="mb-5">Clases</h2>
+                    <div class="subheading mb-3">Con la introducción de ES6 (ECMAScript 2015), JavaScript ahora admite la creación de clases para crear objetos. 
+                        Las clases son una forma más moderna y clara de definir objetos y sus métodos.</div>
+                        <img src="../images/e.png" width="900" height="600">
+                        </section>
+                    
                   
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

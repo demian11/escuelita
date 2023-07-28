@@ -66,8 +66,7 @@ include ".././quiz/admin/conexion.php";
         <br>
         <br>
         <br>
-        <br>
-        <br>
+       
 
         <div class="row">
             <div class="col-lg-4 col-sm-6 mb-4">
@@ -108,7 +107,7 @@ include ".././quiz/admin/conexion.php";
                         if (isset($_SESSION['nombre'])) {
                             $nombreDeUsuario = $_SESSION['nombre'];
                         ?>
-                            <a href="./html1.php" class="btn btn-primary">Ir a los cursos</a>
+                            <a href="./html2.php" class="btn btn-primary">Ir a los cursos</a>
 
                         <?php } else { ?>
 

@@ -65,13 +65,12 @@ include ".././quiz/admin/conexion.php";
         <br>
         <br>
         <br>
-        <br>
-        <br>
+        
 
         <div class="row">
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="../images/nivel1.jpg" alt=""></a>
+                    <a href="#"><img class="card-img-top" src="https://img.freepik.com/vector-premium/ilustracion-concepto-disenador-grafico-dibujo-independiente-espacio-trabajo-hogar_594665-2.jpg?w=2000" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="./html1.php">Principiante</a>
@@ -88,7 +87,7 @@ include ".././quiz/admin/conexion.php";
             <div class="col-lg-4 col-sm-6 mb-4">
 
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="https://previews.123rf.com/images/sensvector/sensvector2101/sensvector210100068/163303513-personaje-masculino-concentrado-en-el-proyecto-de-trabajo-hombre-aislado-codificando-y-programando.jpg" alt=""></a>
+                    <a href="#"><img class="card-img-top" src="https://img.freepik.com/vector-premium/usuario-personaje-nina-mujer-sentada-casa-computadora-busqueda-informacion-busqueda-internet-linea-investigando-usando-concepto-computadora-ilustracion-plana-dibujos-animados_133260-1613.jpg" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="#">Intermedio</a>
@@ -115,7 +114,7 @@ include ".././quiz/admin/conexion.php";
             <div class="col-lg-4 col-sm-6 mb-4">
 
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="https://img.freepik.com/vector-premium/codificador-habil-monitores-gadgets-personaje-masculino-que-desarrolla-sitios-web-codifica-programacion_316839-1306.jpg" alt=""></a>
+                    <a href="#"><img class="card-img-top" src="https://img.freepik.com/vector-premium/ilustracion-concepto-disenador-grafico-dibujo-independiente-espacio-trabajo-hogar_594665-1.jpg?w=2000" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="#">Avanzado</a>

@@ -1,3 +1,10 @@
+<?php
+
+session_start();
+include ".././quiz/admin/conexion.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -33,7 +40,25 @@
     <li class="nav-item">
       <a class="nav-link" href="./nivelHtml.php">Html</a>
     </li>
-  </ul>
+    
+    <?php
+
+if (isset($_SESSION['nombre'])) {
+    $nombreDeUsuario = $_SESSION['nombre'];
+?>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false"><?php echo $_SESSION['nombre'] ?></a>
+        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+            <li><a class="dropdown-item" href="../quiz/admin/cerrar-sesion.php">cerrar sesion</a></li>
+        </ul>
+    </li>
+<?php } else { ?>
+    <li class="nav-item">
+        <a class="nav-link" href="../login.php">Iniciar sesion</a>
+    </li>
+<?php } ?>
+<!-- aqui termina para mostrar el usuario o iniciar sesion -->
+</ul>
 </nav>
 <!--fi de Barra de navegacion superior-->
 

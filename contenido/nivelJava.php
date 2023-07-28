@@ -65,13 +65,12 @@ include ".././quiz/admin/conexion.php";
         <br>
         <br>
         <br>
-        <br>
-        <br>
+      
 
         <div class="row">
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="../images/nivel1.jpg" alt=""></a>
+                    <a href="#"><img class="card-img-top" src="https://img.freepik.com/vector-premium/personaje-pensamiento-diseno-plano-elementos-alrededor_23-2148270055.jpg?w=2000" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="./javascript.php">Principiante</a>
@@ -88,7 +87,9 @@ include ".././quiz/admin/conexion.php";
             <div class="col-lg-4 col-sm-6 mb-4">
 
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="https://previews.123rf.com/images/sensvector/sensvector2101/sensvector210100068/163303513-personaje-masculino-concentrado-en-el-proyecto-de-trabajo-hombre-aislado-codificando-y-programando.jpg" alt=""></a>
+                    <br>
+                    <br>
+                    <a href="#"><img class="card-img-top" src="https://img.freepik.com/vector-premium/concepto-desarrollo-web-escena-personas-diseno-plano-hombre-programando-escribiendo-pruebas-codigo-corrigiendo-errores-funciona-diferentes-pantallas-ilustracion-vectorial-situacion-personaje-web_9209-10313.jpg?w=2000" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="#">Intermedio</a>
@@ -100,39 +101,24 @@ include ".././quiz/admin/conexion.php";
                         if (isset($_SESSION['nombre'])) {
                             $nombreDeUsuario = $_SESSION['nombre'];
                         ?>
-                            <a href="#" class="btn btn-primary">Ir a los cursos</a>
+                            <a href="./javascript2.php" class="btn btn-primary">Ir a los cursos</a>
 
                         <?php } else { ?>
 
-                            <a href="#" class="btn btn-primary">Suscribite a los cursos</a>
+                            <a href="../login.php" class="btn btn-primary">Suscribite a los cursos</a>
 
                         <?php } ?>
 
                     </div>
                 </div>
             </div>
-            <!-- end of header-content 
-                            ░░░█████░░░░░░░░
-                            ░░░█▓▓▒▓▓██░░░░░
-                            ░░░█▓▒▒▒▓▓▓█░░░░
-                            ░░███████▓▓▓█░░░░
-                            ░██████████▓▓█░░░
-                            ░███████████▓▓█░░
-                            ░░██░░▒░░▒██▓██░░
-                            ░░░█░█▒█░▒▒██▒▒█░
-                            ░░█▒░█▒█░▒▒██▒▒█░
-                            ░░█▒▒▒▒▒▒▒██▒▒▒█░
-                            ░░█▒▒▒▒██▒▒█▒▒▒█░
-                            ░░███████▒▒▒██░░
-                            ░░██████▒▒▒▒██░░░
-                            ░░░░█▒▒▒▒▒▒██░░░
-                            ░░░░░██████░
-	 -->
+            <!-- end of header-content  -->
 
             <div class="col-lg-4 col-sm-6 mb-4">
 
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="https://img.freepik.com/vector-premium/codificador-habil-monitores-gadgets-personaje-masculino-que-desarrolla-sitios-web-codifica-programacion_316839-1306.jpg" alt=""></a>
+                    <br>
+                    <a href="#"><img class="card-img-top" src="https://img.freepik.com/vector-premium/concepto-software-programacion-situacion-personaje-hombre-que-trabaja-codigo-programa-computadora-portatil-que-corrige-errores-prueba-optimizacion-ilustracion-vectorial-escena-personas-diseno-plano-web_9209-11400.jpg" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="#">Avanzado</a>
