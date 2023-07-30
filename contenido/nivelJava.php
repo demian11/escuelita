@@ -75,11 +75,11 @@ include ".././quiz/admin/conexion.php";
                         <h4 class="card-title">
                             <a href="./javascript.php">Principiante</a>
                         </h4>
-                        <p class="card-text">En este nivel empezaras aprender lo basico de html en donde
-                            conoceras conceptos basicos como, crear la estructura basica de tu pagina,
-                            como darle tamaño a tus textos, agregar imagenes y demas
+                        <p class="card-text">Dentro de este curso básico aprenderás lo básico de JavaScript en donde conocerás la forma 
+                            en darle interactividad a tu paginas web, 
+                            dentro de este curso aprenderás a declarar variables, hacer funciones y mas.
                         </p>
-                        <a href="./javascript.php" class="btn btn-primary">Ir a los cursos</a>
+                        <a href="./javascript.php" class="btn btn-dark">Ir a los cursos</a>
                     </div>
                 </div>
             </div>
@@ -92,20 +92,23 @@ include ".././quiz/admin/conexion.php";
                     <a href="#"><img class="card-img-top" src="https://img.freepik.com/vector-premium/concepto-desarrollo-web-escena-personas-diseno-plano-hombre-programando-escribiendo-pruebas-codigo-corrigiendo-errores-funciona-diferentes-pantallas-ilustracion-vectorial-situacion-personaje-web_9209-10313.jpg?w=2000" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
+                        <br>
+                        <br>
+                        <br>
                             <a href="#">Intermedio</a>
                         </h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod
-                            odio, gravida pellentesque urna varius vitae.</p>
+                        <p class="card-text">Para el curso intermedio conocerás temas con los que aprenderás a darle una mejor estructura a tu código, 
+                            así como hacer tu código mas eficiente con la finalidad de puedas manipularlo de mejor manera y manejar correctamente los datos.</p>
                         <?php
 
                         if (isset($_SESSION['nombre'])) {
                             $nombreDeUsuario = $_SESSION['nombre'];
                         ?>
-                            <a href="./javascript2.php" class="btn btn-primary">Ir a los cursos</a>
+                            <a href="./javascript2.php" class="btn btn-dark">Ir a los cursos</a>
 
                         <?php } else { ?>
 
-                            <a href="../login.php" class="btn btn-primary">Suscribite a los cursos</a>
+                            <a href="../login.php" class="btn btn-dark">Suscribite a los cursos</a>
 
                         <?php } ?>
 
@@ -121,21 +124,22 @@ include ".././quiz/admin/conexion.php";
                     <a href="#"><img class="card-img-top" src="https://img.freepik.com/vector-premium/concepto-software-programacion-situacion-personaje-hombre-que-trabaja-codigo-programa-computadora-portatil-que-corrige-errores-prueba-optimizacion-ilustracion-vectorial-escena-personas-diseno-plano-web_9209-11400.jpg" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
+                            <br>
+                            <br>
                             <a href="#">Avanzado</a>
                         </h4>
-                        <p class="card-text">Dentro de este curso empezaras a crear tu propio proyecto
-                            de forma profecional y funcional, con el cual podras demostrar tus conociminentos
-                            previamente aprendidos en los anteriores cursos
+                        <p class="card-text">Por ultimo y para finalizar tus cursos de JavaScript usaras todo lo aprendido dentro de los anteriores cursos y crearas un pequeño proyecto en el cual lo implementaras en tu pagina web, 
+                            con la finalidad que puedas ver el funcionamiento correcto de cada tema aprendido del curso.
                         </p>
                         <?php
 
                         if (isset($_SESSION['nombre'])) {
                             $nombreDeUsuario = $_SESSION['nombre'];
                         ?>
-                            <a href="#" class="btn btn-primary">Ir a los cursos</a>
+                            <a href="#" class="btn btn-dark">Ir a los cursos</a>
 
                         <?php } else { ?>
-                            <a href="#" class="btn btn-primary">Suscribete a los cursos</a>
+                            <a href="#" class="btn btn-dark">Suscribete a los cursos</a>
 
                         <?php } ?>
                     </div>

@@ -75,10 +75,11 @@ include ".././quiz/admin/conexion.php";
                         <h4 class="card-title">
                             <a href="./html1.php">Principiante</a>
                         </h4>
-                        <p class="card-text">En este nivel empezaras aprender lo basico de html en donde
-                            conoceras conceptos basicos como, crear la estructura basica de tu pagina,
-                            como darle tamaño a tus textos, agregar imagenes y demas
+                        <br>
+                        <p class="card-text"> En este nivel comenzarás aprendiendo cómo crear la estructura básica de tu sitio web mediante HTML, un lenguaje que define la jerarquía y organización de los elementos en tu página. 
+                            Entenderás cómo estructurar el contenido en etiquetas como encabezados, párrafos, listas y mucho más, dándole a tu sitio una sólida base sobre la cual trabajar.
                         </p>
+                        <br>
                         <a href="./html1.php" class="btn btn-primary">Ir a los cursos</a>
                     </div>
                 </div>
@@ -90,10 +91,14 @@ include ".././quiz/admin/conexion.php";
                     <a href="#"><img class="card-img-top" src="https://img.freepik.com/vector-premium/usuario-personaje-nina-mujer-sentada-casa-computadora-busqueda-informacion-busqueda-internet-linea-investigando-usando-concepto-computadora-ilustracion-plana-dibujos-animados_133260-1613.jpg" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
+                            <br>
+                            <br>
+                            <br>
                             <a href="#">Intermedio</a>
                         </h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod
-                            odio, gravida pellentesque urna varius vitae.</p>
+                        <p class="card-text">En esta etapa, consolidarás los conocimientos básicos de CSS y te adentrarás en conceptos más avanzados que te permitirán crear sitios web con un estilo profesional y sofisticado.
+                        En este nivel, profundizarás en las diferentes técnicas de diseño utilizando selectores avanzados. Aprenderás a apuntar a elementos específicos con mayor precisión y a 
+                        utilizar selectores de atributos y pseudo-clases para aplicar estilos dinámicos según el estado de los elementos.</p>
                         <?php
 
                         if (isset($_SESSION['nombre'])) {
@@ -119,10 +124,10 @@ include ".././quiz/admin/conexion.php";
                         <h4 class="card-title">
                             <a href="#">Avanzado</a>
                         </h4>
-                        <p class="card-text">Dentro de este curso empezaras a crear tu propio proyecto
-                            de forma profecional y funcional, con el cual podras demostrar tus conociminentos
-                            previamente aprendidos en los anteriores cursos
-                        </p>
+                        <br>
+                        <p class="card-text">Felicidades por llegar al nivel avanzado de CSS, en este nivel dominaras las animaciones y transiciones, utilizando keyframes y funciones de temporización avanzadas para crear efectos sorprendentes y fluidos. 
+                            Además, aprenderás a optimizar estas animaciones para garantizar un rendimiento suave y una experiencia de usuario inigualable.</p>
+                        <br>
                         <?php
 
                         if (isset($_SESSION['nombre'])) {
