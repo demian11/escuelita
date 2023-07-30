@@ -161,7 +161,7 @@ include ".././quiz/admin/conexion.php";
                         <br>
                         <li><b>body:</b>El elemento body contiene el contenido visible de la página, como texto, imágenes, enlaces y otros elementos.</li>
                         <br>
-                        <a href="#"><button type="button" class="btn btn-primary btn-block">Ver el resultado final</button></a>
+                       
                     </div>
                    
                 </div>
@@ -175,9 +175,9 @@ include ".././quiz/admin/conexion.php";
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Web Design Intern</h3>
-                        <div class="subheading mb-3">Shout! Media Productions</div>
-                        <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                        <h3 class="mb-0"><!-- contenido--></h3>
+                        <div class="subheading mb-3"><!-- contenido--></div>
+                        <p><!-- contenido--></p>
                     </div>
                     
                 </div>
@@ -213,18 +213,18 @@ include ".././quiz/admin/conexion.php";
                         <br>
                         <br>
                         <div class="subheading mb-3">Como puedes ver aqui tienes varios tipos de tamaños de letras para tus paginas </div>
-                        <div>Computer Science - Web Development Track</div>
-                        <p>GPA: 3.23</p>
+                        <div><!-- contenido--></div>
+                        <p><!-- contenido--></p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary"><!-- contenido--></span></div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">James Buchanan High School</h3>
-                        <div class="subheading mb-3">Technology Magnet Program</div>
-                        <p>GPA: 3.56</p>
+                        <h3 class="mb-0"><!-- contenido--></h3>
+                        <div class="subheading mb-3"><!-- contenido--></div>
+                        <p><!-- contenido--></p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary"><!-- contenido--></span></div>
                 </div>
             </div>
         </section>
@@ -321,11 +321,7 @@ include ".././quiz/admin/conexion.php";
                     </li>
                     <br>
                     <br>
-                    <li>
-                        <!-- Tal vez se elimine este elemento -->
-                    <h2 class="mb-5">Hacer examen</h2>
-                        <h3><a href="../quiz/index.php">En este examen veras un resumen de todos los temas anteriormente aprendiendo dentro de todos los cursos</a></h3>
-                    </li>
+                    
 
                 </ul>
             </div>

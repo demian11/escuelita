@@ -22,7 +22,7 @@ include ".././quiz/admin/conexion.php";
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-primary bg-info fixed-top" id="sideNav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Clarence Taylor</span>
         </a>
@@ -80,7 +80,7 @@ include ".././quiz/admin/conexion.php";
                             Entenderás cómo estructurar el contenido en etiquetas como encabezados, párrafos, listas y mucho más, dándole a tu sitio una sólida base sobre la cual trabajar.
                         </p>
                         <br>
-                        <a href="./css.php" class="btn btn-outline-info">Ir a los cursos</a>
+                        <a href="./html1.php" class="btn btn-primary">Ir a los cursos</a>
                     </div>
                 </div>
             </div>
@@ -104,11 +104,11 @@ include ".././quiz/admin/conexion.php";
                         if (isset($_SESSION['nombre'])) {
                             $nombreDeUsuario = $_SESSION['nombre'];
                         ?>
-                            <a href="#" class="btn btn-outline-info">Ir a los cursos</a>
+                            <a href="#" class="btn btn-primary">Ir a los cursos</a>
 
                         <?php } else { ?>
 
-                            <a href="#" class="btn btn-outline-info">Suscribite a los cursos</a>
+                            <a href="#" class="btn btn-primary">Suscribite a los cursos</a>
 
                         <?php } ?>
 
@@ -133,10 +133,10 @@ include ".././quiz/admin/conexion.php";
                         if (isset($_SESSION['nombre'])) {
                             $nombreDeUsuario = $_SESSION['nombre'];
                         ?>
-                            <a href="#" class="btn btn-outline-info">Ir a los cursos</a>
+                            <a href="#" class="btn btn-primary">Ir a los cursos</a>
 
                         <?php } else { ?>
-                            <a href="#" class="btn btn-outline-info">Suscribete a los cursos</a>
+                            <a href="#" class="btn btn-primary">Suscribete a los cursos</a>
 
                         <?php } ?>
                     </div>
