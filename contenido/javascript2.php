@@ -29,7 +29,7 @@ include ".././quiz/admin/conexion.php";
     <body id="page-top">
     <!--Barra de navegacion superior-->
     <!--el fixed top mantedra fija la barra superir que esta en la liena debajo de este comentario-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-warning fixed-top justify-content-center">
+    <nav class="navbar navbar-expand-sm navbar-primary bg-warning fixed-top justify-content-center">
   <ul class="navbar-nav">
     <li class="nav-item">
       <a class="nav-link" href="../index.php">Inicio</a>
@@ -63,7 +63,7 @@ if (isset($_SESSION['nombre'])) {
 <!--fi de Barra de navegacion superior-->
 
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-warning fixed-top" id="sideNav">
+        <nav class="navbar navbar-expand-lg navbar-primary bg-warning fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">JAVASCRIPT</span>
                 
@@ -230,6 +230,22 @@ if (isset($_SESSION['nombre'])) {
                         Las clases son una forma más moderna y clara de definir objetos y sus métodos.</div>
                         <img src="../images/e.png" width="900" height="600">
                         </section>
+
+                        <!-- Awards-->
+        <section class="resume-section" id="juego">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Antes de que te vallas, nos gustaria que pongas a prueba tus conocimientos </h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <h3><a href="../Juego4/">Aqui completaras textos con la sintaxis del codigo anteriormente aprendido</a></h3>
+                    </li>
+                    <br>
+                    <br>
+                    
+
+                </ul>
+            </div>
+        </section>
                     
                   
         <!-- Bootstrap core JS-->

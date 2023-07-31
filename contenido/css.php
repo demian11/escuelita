@@ -66,7 +66,7 @@ include ".././quiz/admin/conexion.php";
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-primary bg-info fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Clarence Taylor</span>
+            <span class="d-block d-lg-none">CSS</span>
             <!-- <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../images/html.jpg" alt="..." /></span>-->
 
         </a>
@@ -243,18 +243,21 @@ include ".././quiz/admin/conexion.php";
         <!-- Skills-->
         <section class="resume-section" id="skills">
             <div class="resume-section-content">
-                <h2 class="mb-5">Elementos interactivo</h2>
-                <div class="subheading mb-3">En esta lección, veremos cómo crear elementos interactivos en una página web.</div>
-                <li><b><'label>:</b> Para etiquetar controles de formulario y mejorar la accesibilidad..</li>
+                <h2 class="mb-5">Tipografia</h2>
+                <div class="subheading mb-3">La tipografía en CSS se refiere a cómo se estiliza y presenta el texto en una página web. Es un aspecto crucial del diseño web, ya que la elección de la fuente, el tamaño y otros atributos tipográficos afecta la legibilidad y la apariencia general del contenido. CSS proporciona diversas propiedades para controlar la tipografía de un elemento HTML. 
+                    A continuación, explicaré las principales propiedades tipográficas en CSS:</div>
+                <li><b>font-family:</b> Esta propiedad define el tipo de fuente que se aplicará al texto. Puedes especificar múltiples fuentes separadas por comas. Si una fuente no está disponible en el dispositivo del usuario, se utilizará la siguiente fuente de la lista.</li>
                         <br>
-                        <li><b><'textarea> y <'option>:</b> Para crear áreas de texto de varias líneas..</li>
+                        <li><b>font-size:</b> Con esta propiedad, puedes establecer el tamaño del texto. Puedes usar valores en píxeles (px), puntos (pt), porcentajes (%) o unidades relativas como em o rem.</li>
                         <br>
-                        <li><b><'input>:</b> Para crear listas desplegables o selectores de opciones..</li>
+                        <li><b>font-weight:</b> Define el grosor del texto, permitiendo establecer si el texto es normal (normal) o negrita (bold). También puedes utilizar valores numéricos, como 400 para normal y 700 para negrita.</li>
                         <br>
-                        <li><b><'meta>:</b> Para proporcionar metadatos como descripciones y palabras clave.</li>
+                        <li><b>font-style:</b> Esta propiedad te permite definir si el texto es en cursiva (italic) o si se muestra de forma normal (normal).</li>
                         <br>
-                        <li><b><'title>:</b> Para establecer el título de la página web.</li>
-                        <img src="../images/b.png" width="900" height="400">
+                        <li><b>text-decoration:</b> Con esta propiedad, puedes aplicar decoraciones al texto, como subrayado (underline), línea a través del texto (line-through) o ninguna decoración (none).</li>
+                        <br>
+                        <li><b>text-aling:</b> Define la alineación del texto dentro de su contenedor. Puedes alinear el texto a la izquierda (left), a la derecha (right), al centro (center) o justificarlo (justify).</li>
+                        <img src="../images/r.png" width="800" height="600">
                 <!-- Interests
                 <ul class="list-inline dev-icons">
                     <li class="list-inline-item"><i class="fab fa-html5"></i></li>

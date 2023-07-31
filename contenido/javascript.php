@@ -29,7 +29,7 @@ include ".././quiz/admin/conexion.php";
     <body id="page-top">
     <!--Barra de navegacion superior-->
     <!--el fixed top mantedra fija la barra superir que esta en la liena debajo de este comentario-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-warning fixed-top justify-content-center">
+    <nav class="navbar navbar-expand-sm navbar-primary bg-warning fixed-top justify-content-center">
   <ul class="navbar-nav">
     <li class="nav-item">
       <a class="nav-link" href="../index.php">Inicio</a>
@@ -63,7 +63,7 @@ if (isset($_SESSION['nombre'])) {
 <!--fi de Barra de navegacion superior-->
 
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-warning fixed-top" id="sideNav">
+        <nav class="navbar navbar-expand-lg navbar-primary bg-warning fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">JAVASCRIPT</span>
                 
@@ -77,6 +77,7 @@ if (isset($_SESSION['nombre'])) {
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills"></a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">let y const</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Instrucciones</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#juego">ir a jugar</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Regrese al inicio del curso</a></li>
 
                     
@@ -271,6 +272,23 @@ if (isset($_SESSION['nombre'])) {
                             const <b>name</b> = "Daenerys"; <br> 
                             <p>console.log(<b>name</b>);</p></li></li>
                             <br>
+                            </section>
+                            <hr class="m-0" />
+        <!-- Awards-->
+        <section class="resume-section" id="juego">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Antes de que te vallas, nos gustaria que pongas a prueba tus conocimientos </h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <h3><a href="../Juego4/">Aqui completaras textos con la sintaxis del codigo anteriormente aprendido</a></h3>
+                    </li>
+                    <br>
+                    <br>
+                    
+
+                </ul>
+            </div>
+        </section>
                   
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
