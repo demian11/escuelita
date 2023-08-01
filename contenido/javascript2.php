@@ -123,8 +123,8 @@ if (isset($_SESSION['nombre'])) {
                 <div class="resume-section-content">
                     <h2>¡Espera!</h2>
                     <div class="subheading mb-3">Los sitios web dínamicos necesitamos recordar información para mostrar o cambiar.Para<br>
-                eso, JavaScript tiene valiables.<br>
-                Al igual  que las cajas moviles ,las variables tienen contenido y nombres que nos dicen qué hay dentro.</div>
+                        eso, JavaScript tiene valiables.<br>
+                        Al igual  que las cajas moviles ,las variables tienen contenido y nombres que nos dicen qué hay dentro.</div>
                     <div class="social-icons">
                     <a class="social-icon" href="https://codepen.io/pen/"><i class="fa-solid fa-code"></i></a>  <ul class="list-inline dev-icons"> <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
                 </div>
@@ -208,7 +208,6 @@ if (isset($_SESSION['nombre'])) {
                         </section>
                         
 
-                        
             <hr class="m-0" />
             <!-- Skills-->
             <section class="resume-section" id="interests">
@@ -241,13 +240,10 @@ if (isset($_SESSION['nombre'])) {
                     </li>
                     <br>
                     <br>
-                    
-
                 </ul>
             </div>
         </section>
-                    
-                  
+                      
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
