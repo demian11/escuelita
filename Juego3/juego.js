@@ -12,7 +12,7 @@ let comprobar = document.getElementById("comprobar");
 let txtResultado = document.getElementById("resultado");
 
 //Arreglo que contiene el orden de las palabras que el usuario va eligiendo. Tambien me sirve para saber las posiciones disponibles
-let posDisponible = ["", "", "", "", "", "", ""];
+let posDisponible = ["", ""];
 
 //Función que agrega las opciones 
 function agregarOpciones(){
