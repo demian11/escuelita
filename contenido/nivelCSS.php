@@ -75,11 +75,12 @@ include ".././quiz/admin/conexion.php";
                         <h4 class="card-title">
                             <a href="./css.php">Principiante</a>
                         </h4>
-                        <br>
-                        <p class="card-text"> En este nivel comenzarás aprendiendo cómo crear la estructura básica de tu sitio web mediante HTML, un lenguaje que define la jerarquía y organización de los elementos en tu página. 
-                            Entenderás cómo estructurar el contenido en etiquetas como encabezados, párrafos, listas y mucho más, dándole a tu sitio una sólida base sobre la cual trabajar.
+                        
+                        <p class="card-text"> Nuestro emocionante curso de nivel básico de CSS te sumergirá en el fascinante mundo del diseño web. 
+                            A lo largo de este curso, te guiaremos a través de los fundamentos esenciales de CSS, el lenguaje de hojas de estilo que da vida y estilo a las páginas web. 
+                            Desde la manipulación de colores y fuentes hasta la creación de diseños atractivos y responsivos, este curso te proporcionará las bases sólidas que necesitas para convertirte en un maestro del diseño web.
                         </p>
-                        <br>
+                        
                         <a href="./css.php" class="btn btn-outline-info">Ir a los cursos</a>
                     </div>
                 </div>
