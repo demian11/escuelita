@@ -78,14 +78,15 @@
         <div class='total'>
         <div class='line'></div>
           <span style='float:left;'>
-            <div class='thin dense'>VAT 19%</div>
-            <div class='thin dense'>Delivery</div>
+          
+            <div class='thin dense'></div>
+            <div class='thin dense'></div>
             TOTAL
           </span>
           <span style='float:right; text-align:right;'>
-            <div class='thin dense'>$68.75</div>
-            <div class='thin dense'>$4.95</div>
-            $435.55
+            <div class='thin dense'></div>
+            <div class='thin dense'></div>
+            $200.00
           </span>
         </div>
 </div>

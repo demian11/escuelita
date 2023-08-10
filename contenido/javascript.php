@@ -79,8 +79,7 @@ if (isset($_SESSION['nombre'])) {
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Instrucciones</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#juego">ir a jugar</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Regrese al inicio del curso</a></li>
-
-                    
+   
                 </ul>
             </div>
         </nav>
@@ -115,20 +114,20 @@ if (isset($_SESSION['nombre'])) {
                         <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
                     -->                  
                     </div>
-
                 </div>
             </section>
+
             <hr class="m-0" />
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
                     <h2>¡Espera!</h2>
                     <div class="subheading mb-3">Los sitios web dínamicos necesitamos recordar información para mostrar o cambiar.Para<br>
-                eso, JavaScript tiene valiables.<br>
-            Al igual  que las cajas moviles ,las variables tienen contenido y nombres que nos dicen qué hay dentro.</div>
+                    eso, JavaScript tiene valiables.<br>
+                    Al igual  que las cajas moviles ,las variables tienen contenido y nombres que nos dicen qué hay dentro.</div>
                     <div class="social-icons">
                     <a class="social-icon" href="https://codepen.io/pen/"><i class="fa-solid fa-code"></i></a>  <ul class="list-inline dev-icons"> <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                </div>
+                    </div>
                     <br>
                     <br>
                     <br>
@@ -178,8 +177,10 @@ if (isset($_SESSION['nombre'])) {
                             <br>
                             <h2></h2>
                         </div>
+
                         <div class="flex-shrink-0"><span class="text-primary"></span></div>
                     </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"></h3>
@@ -188,6 +189,7 @@ if (isset($_SESSION['nombre'])) {
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary"></span></div>
                     </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"></h3>
@@ -198,6 +200,7 @@ if (isset($_SESSION['nombre'])) {
                     </div>
                 </div>
             </section>
+
             <hr class="m-0" />
             <!-- Education-->
             <section class="resume-section" id="education">
@@ -245,7 +248,6 @@ if (isset($_SESSION['nombre'])) {
                 <div class="resume-section-content">
                     <h2 class="mb-5">Instrucciones</h2>
 
-
                     <li>Las lineas de código son <b>instrucciones</b>que debe seguir la computadora <br>
                 Cuando ejecutamos el código, le decimos a la computadora que siga las instrucciones que reunimos.</li>
                             <br>
@@ -254,8 +256,8 @@ if (isset($_SESSION['nombre'])) {
                             <br>
                             <li>Ejemplo:<br>
                              const <b>step1</b> = "Collect pants";  <br>   
-                        const <b>step2</b> = "?"; <br> 
-                        const <b>step3</b> = "Profit"; </li>
+                             const <b>step2</b> = "?"; <br> 
+                             const <b>step3</b> = "Profit"; </li>
                             <br>
                             <li>Con la instruccion especial <b>console log().</b>le decimos a la computadora que muestre un valor en un área llamada <b>consola.</b></li>
                             <br>
@@ -274,7 +276,8 @@ if (isset($_SESSION['nombre'])) {
                             <br>
                             </section>
                             <hr class="m-0" />
-        <!-- Awards-->
+       
+                            <!-- Awards-->
         <section class="resume-section" id="juego">
             <div class="resume-section-content">
                 <h2 class="mb-5">Antes de que te vallas, nos gustaria que pongas a prueba tus conocimientos </h2>
@@ -285,7 +288,6 @@ if (isset($_SESSION['nombre'])) {
                     <br>
                     <br>
                     
-
                 </ul>
             </div>
         </section>

@@ -134,10 +134,10 @@ include ".././quiz/admin/conexion.php";
                         if (isset($_SESSION['nombre'])) {
                             $nombreDeUsuario = $_SESSION['nombre'];
                         ?>
-                            <a href="#" class="btn btn-outline-info">Ir a los cursos</a>
+                            <a href="../pagos2/contenido.php" class="btn btn-outline-info">pagar suscripcion</a>
 
                         <?php } else { ?>
-                            <a href="#" class="btn btn-outline-info">Suscribete a los cursos</a>
+                            <a href="../login.php" class="btn btn-outline-info">Suscribete a los cursos</a>
 
                         <?php } ?>
                     </div>
